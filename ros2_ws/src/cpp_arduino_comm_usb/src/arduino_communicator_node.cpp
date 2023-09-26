@@ -126,7 +126,7 @@ namespace roar {
         // void ArduinoCommunicatorNode::on_write_timer() {
             // write from arduino
             // Convert latest control model to JSON string
-            //auto json = latest_command_; // ->to_json(); dump ??
+            //auto json = latest_command_; // ->to_json(); dump ??  --- HELP
 
             // Convert JSON string to UTF-8 encoded byte array
             // auto message = std::vector<uint8_t>(json.begin(), json.end());
@@ -155,7 +155,7 @@ namespace roar {
 
         // void ArduinoCommunicatorNode::on_publish_state() {
         //     // publish latest state
-        //     // what does this do????
+        //     // what does this do???? ---- HELP
         //     // Create header
         //     std_msgs::msg::Header header;
         //     header.stamp = this->now();
