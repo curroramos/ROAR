@@ -51,7 +51,7 @@ namespace roar
                 std::shared_ptr<roar_gokart_msgs::msg::EgoVehicleControl> latest_command_;
 
                 // define socket connection PHASE II
-                // std::pair<std::string, int> ArduinoCommunicatorNode::p_getIPAndPort() {
+                std::pair<std::string, int> ArduinoCommunicatorNode::p_getIPAndPort();
 
                 // define logger
                 std::shared_ptr<rclcpp::Logger> _logger;
@@ -59,15 +59,8 @@ namespace roar
                 // define control msg to arduino command function
                 roar_gokart_msgs::msg::EgoVehicleControl ArduinoCommunicatorNode::p_egoVehicleControlMsgToArduinoCmdActionModel(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg); 
 
-                // define state msg to vehicle state function 
-                // roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState(const nlohmann::json& data) {
-
-
-
-
-
-
-                
+                // define function to parse JSON data to vehicle state model
+                roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState();  // const nlohmann::json& data as input
 
 
 
