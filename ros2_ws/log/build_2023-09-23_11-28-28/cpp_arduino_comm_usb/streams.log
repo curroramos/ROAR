@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_pubsub:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[0.051s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.392s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.424s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.434s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.628s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.629s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.938s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.973s] -- Found roar_gokart_msgs: 0.0.0 (/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake)
+[1.018s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.123s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.124s] -- Configured cppcheck include dirs: /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include;$<BUILD_INTERFACE:/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include>
+[1.124s] -- Configured cppcheck exclude dirs and/or files: 
+[1.124s] -- Added test 'lint_cmake' to check CMake code style
+[1.125s] -- Added test 'uncrustify' to check C / C++ code style
+[1.125s] -- Configured uncrustify additional arguments: 
+[1.125s] -- Added test 'xmllint' to check XML markup files
+[1.126s] -- Configuring done (1.1s)
+[1.136s] -- Generating done (0.0s)
+[1.137s] -- Build files have been written to: /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb
+[1.173s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o[0m
+[4.908s] [100%] [32m[1mLinking CXX executable arduino_communicator_node[0m
+[5.114s] [100%] Built target arduino_communicator_node
+[5.132s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '0': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_pubsub:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[5.200s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_pubsub:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb
+[5.224s] -- Install configuration: ""
+[5.224s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node
+[5.225s] -- Set runtime path of "/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node" to ""
+[5.225s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/package_run_dependencies/cpp_arduino_comm_usb
+[5.226s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/parent_prefix_path/cpp_arduino_comm_usb
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.sh
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.dsv
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.sh
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.dsv
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.bash
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.sh
+[5.226s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.zsh
+[5.227s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.dsv
+[5.227s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.dsv
+[5.227s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/packages/cpp_arduino_comm_usb
+[5.227s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig.cmake
+[5.227s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig-version.cmake
+[5.227s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.xml
+[5.234s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '0': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_pubsub:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb

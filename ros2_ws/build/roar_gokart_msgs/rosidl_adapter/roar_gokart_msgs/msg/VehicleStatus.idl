@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from roar_gokart_msgs/msg/VehicleStatus.msg
+// generated code does not contain a copyright notice
+
+#include "roar_gokart_msgs/msg/Actuation.idl"
+#include "std_msgs/msg/Header.idl"
+
+module roar_gokart_msgs {
+  module msg {
+    struct VehicleStatus {
+      std_msgs::msg::Header header;
+
+      float angle;
+
+      boolean is_left_limiter_on;
+
+      boolean is_right_limiter_on;
+
+      float speed;
+
+      boolean is_auto;
+
+      float target_speed;
+
+      float target_steering_angle;
+
+      roar_gokart_msgs::msg::Actuation actuation;
+    };
+  };
+};

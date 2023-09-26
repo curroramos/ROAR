@@ -1,0 +1,10 @@
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/uninstall.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/cpp_arduino_comm_usb_uninstall.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/arduino_communicator_node.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/test.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/edit_cache.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/rebuild_cache.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/list_install_components.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/install.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/install/local.dir
+/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb/CMakeFiles/install/strip.dir

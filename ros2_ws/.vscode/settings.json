@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb",
+    "files.associations": {
+        "functional": "cpp"
+    }
+}

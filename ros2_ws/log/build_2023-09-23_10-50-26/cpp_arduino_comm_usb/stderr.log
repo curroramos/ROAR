@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: warning: relocation against `_ZTVN4roar7arduino23ArduinoCommunicatorNodeE' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: in function `roar::arduino::ArduinoCommunicatorNode::ArduinoCommunicatorNode()':
+arduino_communicator_node.cpp:(.text+0xf5): undefined reference to `vtable for roar::arduino::ArduinoCommunicatorNode'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/arduino_communicator_node.dir/build.make:174: arduino_communicator_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arduino_communicator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

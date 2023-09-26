@@ -1,0 +1,13 @@
+{
+  "package_name": "roar_gokart_msgs",
+  "output_dir": "/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs/rosidl_generator_type_description/roar_gokart_msgs",
+  "idl_tuples": [
+    "/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs/rosidl_adapter/roar_gokart_msgs:msg/EgoVehicleControl.idl",
+    "/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs/rosidl_adapter/roar_gokart_msgs:msg/VehicleStatus.idl",
+    "/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs/rosidl_adapter/roar_gokart_msgs:msg/Actuation.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces"
+  ]
+}

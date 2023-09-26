@@ -1,0 +1,8 @@
+{
+  "package_name": "roar_gokart_msgs",
+  "non_idl_tuples": [
+    "/home/curro/ROAR/ros2_ws/src/roar_gokart_msgs:msg/EgoVehicleControl.msg",
+    "/home/curro/ROAR/ros2_ws/src/roar_gokart_msgs:msg/VehicleStatus.msg",
+    "/home/curro/ROAR/ros2_ws/src/roar_gokart_msgs:msg/Actuation.msg"
+  ]
+}
