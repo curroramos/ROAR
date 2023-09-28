@@ -4,3 +4,7 @@ roar_gokart_msgs.egg-info/PKG-INFO
 roar_gokart_msgs.egg-info/SOURCES.txt
 roar_gokart_msgs.egg-info/dependency_links.txt
 roar_gokart_msgs.egg-info/top_level.txt
+roar_gokart_msgs/msg/__init__.py
+roar_gokart_msgs/msg/_actuation.py
+roar_gokart_msgs/msg/_ego_vehicle_control.py
+roar_gokart_msgs/msg/_vehicle_status.py

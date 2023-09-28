@@ -657,4 +657,18 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: \
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp
+ /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/actuation.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__struct.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__builder.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__traits.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/vehicle_status.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__struct.hpp \
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__builder.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__traits.hpp \
+ /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/ego_vehicle_control.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__struct.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__builder.hpp \
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__traits.hpp
