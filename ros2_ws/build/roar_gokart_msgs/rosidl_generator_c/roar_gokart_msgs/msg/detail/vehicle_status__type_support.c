@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "roar_gokart_msgs/msg/detail/vehicle_status__type_support.h"
 #include "roar_gokart_msgs/msg/detail/vehicle_status__functions.h"
+#include "roar_gokart_msgs/msg/detail/vehicle_status__type_support.h"
 #include "roar_gokart_msgs/msg/detail/vehicle_status__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 

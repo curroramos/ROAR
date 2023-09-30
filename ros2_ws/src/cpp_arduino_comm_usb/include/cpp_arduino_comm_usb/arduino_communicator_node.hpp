@@ -8,6 +8,8 @@
 
 #include "roar_gokart_msgs/msg/actuation.hpp"
 #include "roar_gokart_msgs/msg/vehicle_status.hpp"
+#include "roar_gokart_msgs/msg/ego_vehicle_control.hpp"
+
 
 
 namespace roar
@@ -21,19 +23,9 @@ namespace roar
                 ~ArduinoCommunicatorNode();
 
             protected:
-                // // tutorial, to remove 
-                // void timer_callback();
-                // rclcpp::TimerBase::SharedPtr timer_;
-                // rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-                // size_t count_;
-                // // end
-
-                /**
-                 * on every timestep, read and write to arduino via Ethernet UDP
-                */
+                // define read and write timer
                 void on_read_timer();
                 rclcpp::TimerBase::SharedPtr read_timer_;
-
                 void on_write_timer();
                 rclcpp::TimerBase::SharedPtr write_timer_;
 
@@ -50,17 +42,24 @@ namespace roar
                 std::shared_ptr<roar_gokart_msgs::msg::VehicleStatus> latest_state_;
                 std::shared_ptr<roar_gokart_msgs::msg::EgoVehicleControl> latest_command_;
 
-                // define socket connection PHASE II
-                std::pair<std::string, int> ArduinoCommunicatorNode::p_getIPAndPort();
+                // define socket
+                int sock;
+                struct sockaddr_in server_address;
+                struct in_addr arduino_ip;
+                unsigned int arduino_port = 1883;
+
+
+                // define function to get IP address and port
+                std::pair<std::string, int> p_getIPAndPort();
 
                 // define logger
                 std::shared_ptr<rclcpp::Logger> _logger;
 
                 // define control msg to arduino command function
-                roar_gokart_msgs::msg::EgoVehicleControl ArduinoCommunicatorNode::p_egoVehicleControlMsgToArduinoCmdActionModel(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg); 
+                roar_gokart_msgs::msg::EgoVehicleControl p_egoVehicleControlMsgToArduinoCmdActionModel(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg); 
 
                 // define function to parse JSON data to vehicle state model
-                roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState();  // const nlohmann::json& data as input
+                roar_gokart_msgs::msg::VehicleStatus p_dataToVehicleState();  // const nlohmann::json& data as input
 
 
 

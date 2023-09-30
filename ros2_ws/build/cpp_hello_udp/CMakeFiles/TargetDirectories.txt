@@ -1,0 +1,10 @@
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/uninstall.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/cpp_hello_udp_uninstall.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/hello.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/test.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/edit_cache.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/rebuild_cache.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/list_install_components.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/install.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/install/local.dir
+/home/curro/ROAR/ros2_ws/build/cpp_hello_udp/CMakeFiles/install/strip.dir

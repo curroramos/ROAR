@@ -1,0 +1,18 @@
+[100%] Built target arduino_communicator_node
+-- Install configuration: ""
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/package_run_dependencies/cpp_arduino_comm_usb
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/parent_prefix_path/cpp_arduino_comm_usb
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.bash
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.zsh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.dsv
+-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/packages/cpp_arduino_comm_usb
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig.cmake
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig-version.cmake
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.xml

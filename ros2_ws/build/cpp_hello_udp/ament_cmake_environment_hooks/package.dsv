@@ -1,0 +1,4 @@
+source;share/cpp_hello_udp/local_setup.bash
+source;share/cpp_hello_udp/local_setup.dsv
+source;share/cpp_hello_udp/local_setup.sh
+source;share/cpp_hello_udp/local_setup.zsh

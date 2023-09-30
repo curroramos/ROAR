@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o[0m
+[2.253s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In constructor ‘[01m[Kroar::arduino::ArduinoCommunicatorNode::ArduinoCommunicatorNode()[m[K’:
+[2.253s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:61:13:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_ip[m[K’ was not declared in this scope; did you mean ‘[01m[Karduino[m[K’?
+[2.253s]    61 |             [01;31m[Karduino_ip[m[K.s_addr = inet_addr("10.0.0.9");
+[2.253s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.253s]       |             [32m[Karduino[m[K
+[2.259s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:65:45:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_port[m[K’ was not declared in this scope
+[2.259s]    65 |             server_address.sin_port = htons([01;31m[Karduino_port[m[K);
+[2.259s]       |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[2.269s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_read_timer()[m[K’:
+[2.269s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:93:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_address[m[K’ was not declared in this scope
+[2.269s]    93 |                 int bytes_sent = sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&[01;31m[Kserver_address[m[K, sizeof(server_address));
+[2.269s]       |                                                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.270s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:88:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.270s]    88 |             auto [01;35m[Kport[m[K = this->get_parameter("port").as_int();
+[2.270s]       |                  [01;35m[K^~~~[m[K
+[2.270s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_write_timer()[m[K’:
+[2.270s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:150:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.270s]   150 |             auto [01;35m[Kport[m[K = this->get_parameter("port").as_int();
+[2.270s]       |                  [01;35m[K^~~~[m[K
+[2.270s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_command(roar_gokart_msgs::msg::EgoVehicleControl_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.271s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:156:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.271s]   156 |         void ArduinoCommunicatorNode::on_command([01;35m[Kconst roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg[m[K) {
+[2.271s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.092s] gmake[2]: *** [CMakeFiles/arduino_communicator_node.dir/build.make:76: CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o] Error 1
+[4.093s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_communicator_node.dir/all] Error 2
+[4.093s] gmake: *** [Makefile:146: all] Error 2
+[4.099s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '2': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8

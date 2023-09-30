@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "roar_gokart_msgs/msg/detail/actuation__functions.h"
 #include "roar_gokart_msgs/msg/detail/actuation__struct.h"
 #include "roar_gokart_msgs/msg/detail/actuation__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "roar_gokart_msgs/msg/detail/actuation__functions.h"
 
 #ifdef __cplusplus
 extern "C"

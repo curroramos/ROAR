@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake /home/curro/ROAR/ros2_ws/src/cpp_hello_udp -DCMAKE_INSTALL_PREFIX=/home/curro/ROAR/ros2_ws/install/cpp_hello_udp
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.305s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.775s] -- Found Python3: /home/curro/anaconda3/bin/python3.11 (found version "3.11.4") found components: Interpreter 
+[0.876s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.918s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.931s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.159s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.162s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.279s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.308s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.549s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.586s] -- Found roar_gokart_msgs: 0.0.0 (/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake)
+[1.634s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.749s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.749s] -- Configured cppcheck include dirs: /home/curro/ROAR/ros2_ws/src/cpp_hello_udp/include;$<BUILD_INTERFACE:/home/curro/ROAR/ros2_ws/src/cpp_hello_udp/include>
+[1.749s] -- Configured cppcheck exclude dirs and/or files: 
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.751s] -- Added test 'uncrustify' to check C / C++ code style
+[1.751s] -- Configured uncrustify additional arguments: 
+[1.751s] -- Added test 'xmllint' to check XML markup files
+[1.753s] -- Configuring done (1.7s)
+[1.764s] -- Generating done (0.0s)
+[1.765s] -- Build files have been written to: /home/curro/ROAR/ros2_ws/build/cpp_hello_udp
+[1.783s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake /home/curro/ROAR/ros2_ws/src/cpp_hello_udp -DCMAKE_INSTALL_PREFIX=/home/curro/ROAR/ros2_ws/install/cpp_hello_udp
+[1.784s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_hello_udp -- -j8 -l8
+[1.830s] [ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[4.428s] [100%] [32m[1mLinking CXX executable hello[0m
+[4.544s] [100%] Built target hello
+[4.552s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_hello_udp -- -j8 -l8
+[4.594s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_hello_udp
+[4.616s] -- Install configuration: ""
+[4.616s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/lib/cpp_hello_udp/hello
+[4.617s] -- Set runtime path of "/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/lib/cpp_hello_udp/hello" to ""
+[4.617s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/package_run_dependencies/cpp_hello_udp
+[4.617s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/parent_prefix_path/cpp_hello_udp
+[4.617s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/ament_prefix_path.sh
+[4.617s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/ament_prefix_path.dsv
+[4.617s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/path.sh
+[4.617s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/path.dsv
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.bash
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.sh
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.zsh
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.dsv
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/package.dsv
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/packages/cpp_hello_udp
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/cmake/cpp_hello_udpConfig.cmake
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/cmake/cpp_hello_udpConfig-version.cmake
+[4.618s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/package.xml
+[4.625s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_hello_udp

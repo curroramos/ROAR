@@ -2,13 +2,12 @@
 #include <functional>
 #include <memory>
 #include <string>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "cpp_arduino_comm_usb/arduino_communicator_node.hpp"
-
-#include "roar_gokart_msgs/msg/actuation.hpp"
-#include "roar_gokart_msgs/msg/vehicle_status.hpp"
-#include "roar_gokart_msgs/msg/ego_vehicle_control.hpp"
 
 namespace roar {
     namespace arduino {
@@ -37,10 +36,6 @@ namespace roar {
                 std::bind(&ArduinoCommunicatorNode::on_write_timer, this)
             );
 
-            // doubt: what is this for??
-            publish_state_timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&ArduinoCommunicatorNode::on_publish_state, this));    
-
-
             // Create subscription and publisher
             command_subscriber_ = this->create_subscription<roar_gokart_msgs::msg::EgoVehicleControl>(
                 "ego_vehicle_control",
@@ -56,10 +51,17 @@ namespace roar {
             latest_state_ = std::make_shared<roar_gokart_msgs::msg::VehicleStatus>();
             latest_command_ = std::make_shared<roar_gokart_msgs::msg::EgoVehicleControl>();
 
-            // Initialize socket connection PHASE II
-            printf("Initialize socket connection\n");
-            //int sock = socket(AF_INET, SOCK_DGRAM, 0);
+            // Set up the UDP socket
+            sock = socket(AF_INET, SOCK_DGRAM, 0);
+            if (sock < 0) {
+                perror("socket creation failed");
+                exit(EXIT_FAILURE);
+            }
 
+            arduino_ip.s_addr = inet_addr("10.0.0.9");
+            server_address.sin_family = AF_INET;
+            server_address.sin_addr = arduino_ip;
+            server_address.sin_port = htons(arduino_port);
 
             // Initialize logger
             printf("Initialize logger and set level\n");
@@ -71,7 +73,8 @@ namespace roar {
         }
         ArduinoCommunicatorNode::~ArduinoCommunicatorNode()
         {
-            // Destructor   
+            // Close socket
+            close(sock);
             printf("Destroy node\n");
         }
 
@@ -79,22 +82,43 @@ namespace roar {
         // Function to get state data from Arduino
         void ArduinoCommunicatorNode::on_read_timer() {
             // Send message to IP address and port
-            auto message = std::string("s");
             auto ip_address = this->get_parameter("ip_address").as_string();
             auto port = this->get_parameter("port").as_int();
-            printf("Send message to IP address and port\n");
 
-
+            // Send message via UDP
+            std::string message = "s";
+            int bytes_sent = sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
+            if (bytes_sent < 0) {
+            perror("sendto failed");
+            exit(EXIT_FAILURE);
+            }
+            printf("Sent message: %s\n", message.c_str());
+            
+    
             // Receive data from socket with a buffer size of 1024 bytes
             std::array<char, 1024> buffer;
             printf("Wait for data from socket\n");
+
+
+            // Receive data from socket with a buffer size of 1024 bytes
+            struct sockaddr_in client_address;
+            socklen_t client_address_len = sizeof(client_address);
+            ssize_t num_bytes_received = recvfrom(ArduinoCommunicatorNode::sock, buffer.data(), buffer.size(), 0, (struct sockaddr*)&client_address, &client_address_len);
+            if (num_bytes_received < 0) {
+                perror("recvfrom failed");
+                exit(EXIT_FAILURE);
+            }
+
+            // Print the received message
+            printf("Received message: %s\n", buffer.data());    
+
 
             try {
                 // Convert received data to string
                 auto data = std::string(buffer.data());
 
                 // Parse JSON data to vehicle state model
-                // auto model = p_dataToVehicleState(data);
+                auto model = p_dataToVehicleState(data);
                 printf("Parse JSON data to vehicle state model\n");
 
                 // Update latest state
@@ -185,11 +209,35 @@ namespace roar {
         }
 
 
-        roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState() { // const nlohmann::json& data as input
+        roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState(const std::string& jsonData) { // const nlohmann::json& data as input
             roar_gokart_msgs::msg::VehicleStatus model;
             // Parse JSON data to vehicle state model
-            // roar_gokart_msgs::msg::VehicleStatus model = //data.get<ArduinoVehicleStateModel>();
             printf("Parse JSON data to vehicle state model\n");
+
+            // Parse the received JSON message
+            Document document;
+            document.Parse(jsonData.c_str());
+
+            if (!document.IsObject()) {
+                std::cerr << "Failed to parse JSON." << std::endl;
+                return 1;
+            }
+
+            try {
+                // Parse the JSON data using a JSON library (e.g., RapidJSON).
+                // Replace this with the actual parsing code based on your JSON structure.
+                // For example, if your JSON has a "speed" field and an "angle" field:
+                // model.speed = parsedJson["speed"].GetDouble();
+                // Add parsing logic for other fields as needed.
+
+            } catch (const std::exception& e) {
+                // Handle any exceptions that may occur during parsing.
+                // You can log an error message or throw an exception as needed.
+                // For example:
+                // throw std::runtime_error("Failed to parse JSON: " + std::string(e.what()));
+            }
+
+
 
             return model;
         }

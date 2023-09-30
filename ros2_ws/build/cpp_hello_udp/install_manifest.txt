@@ -1,0 +1,16 @@
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/lib/cpp_hello_udp/hello
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/package_run_dependencies/cpp_hello_udp
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/parent_prefix_path/cpp_hello_udp
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/ament_prefix_path.sh
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/ament_prefix_path.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/path.sh
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/path.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.bash
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.sh
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.zsh
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/package.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/packages/cpp_hello_udp
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/cmake/cpp_hello_udpConfig.cmake
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/cmake/cpp_hello_udpConfig-version.cmake
+/home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/package.xml
