@@ -1,0 +1,23 @@
+[0.525s] Invoking command in '/home/curro/ROAR/ros2_ws/src/arduino_comm': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/curro/ROAR/ros2_ws/build/arduino_comm/prefix_override:/home/curro/ROAR/ros2_ws/install/arduino_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduino_comm build --build-base /home/curro/ROAR/ros2_ws/build/arduino_comm/build install --record /home/curro/ROAR/ros2_ws/build/arduino_comm/install.log --single-version-externally-managed
+[0.704s] running egg_info
+[0.704s] writing ../../build/arduino_comm/arduino_comm.egg-info/PKG-INFO
+[0.704s] writing dependency_links to ../../build/arduino_comm/arduino_comm.egg-info/dependency_links.txt
+[0.705s] writing entry points to ../../build/arduino_comm/arduino_comm.egg-info/entry_points.txt
+[0.705s] writing requirements to ../../build/arduino_comm/arduino_comm.egg-info/requires.txt
+[0.705s] writing top-level names to ../../build/arduino_comm/arduino_comm.egg-info/top_level.txt
+[0.706s] reading manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[0.707s] writing manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[0.707s] running build
+[0.707s] running build_py
+[0.707s] running install
+[0.707s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.707s]   warnings.warn(
+[0.707s] running install_lib
+[0.708s] running install_data
+[0.709s] running install_egg_info
+[0.710s] removing '/home/curro/ROAR/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.710s] Copying ../../build/arduino_comm/arduino_comm.egg-info to /home/curro/ROAR/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info
+[0.711s] running install_scripts
+[0.726s] Installing arduino_comm_node script to /home/curro/ROAR/ros2_ws/install/arduino_comm/lib/arduino_comm
+[0.727s] writing list of installed files to '/home/curro/ROAR/ros2_ws/build/arduino_comm/install.log'
+[0.757s] Invoked command in '/home/curro/ROAR/ros2_ws/src/arduino_comm' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/curro/ROAR/ros2_ws/build/arduino_comm/prefix_override:/home/curro/ROAR/ros2_ws/install/arduino_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduino_comm build --build-base /home/curro/ROAR/ros2_ws/build/arduino_comm/build install --record /home/curro/ROAR/ros2_ws/build/arduino_comm/install.log --single-version-externally-managed

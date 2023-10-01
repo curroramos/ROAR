@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_comm_node = arduino_comm.arduino_comm_node:main
+

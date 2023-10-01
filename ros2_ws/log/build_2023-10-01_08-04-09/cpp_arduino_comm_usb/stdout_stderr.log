@@ -1,0 +1,42 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o[0m
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_read_timer()[m[K’:
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:77:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   77 |             auto [01;35m[Kport[m[K = this->get_parameter("port").as_int();
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_write_timer()[m[K’:
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:151:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_sent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  151 |             int [01;35m[Kbytes_sent[m[K = sendto(sock, json_string_data.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kroar_gokart_msgs::msg::VehicleStatus roar::arduino::ArduinoCommunicatorNode::p_dataToVehicleState(const string&)[m[K’:
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:257:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  257 |                 printf("throttle: [01;35m[K%d[m[K\n", [32m[Kmodel.actuation.throttle[m[K);
+      |                                   [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                    [01;35m[K|[m[K                     [32m[K|[m[K
+      |                                    [01;35m[Kint[m[K                   [32m[Kdouble[m[K
+      |                                   [32m[K%f[m[K
+[01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:259:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  259 |                 printf("brake: [01;35m[K%d[m[K\n", [32m[Kmodel.actuation.brake[m[K);
+      |                                [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                 [01;35m[K|[m[K                     [32m[K|[m[K
+      |                                 [01;35m[Kint[m[K                   [32m[Kdouble[m[K
+      |                                [32m[K%f[m[K
+[100%] [32m[1mLinking CXX executable arduino_communicator_node[0m
+[100%] Built target arduino_communicator_node
+-- Install configuration: ""
+-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node
+-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node" to ""
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/package_run_dependencies/cpp_arduino_comm_usb
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/parent_prefix_path/cpp_arduino_comm_usb
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.bash
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.zsh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.dsv
+-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/packages/cpp_arduino_comm_usb
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig.cmake
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig-version.cmake
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.xml

@@ -15,6 +15,8 @@
 #include "roar_gokart_msgs/msg/ego_vehicle_control.hpp"
 
 #include "rapidjson/document.h"
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/writer.h>
 
 
 
@@ -44,7 +46,7 @@ namespace roar
                 rclcpp::TimerBase::SharedPtr publish_state_timer_;
                 rclcpp::Publisher<roar_gokart_msgs::msg::VehicleStatus>::SharedPtr state_publisher_;
 
-                void ArduinoCommunicatorNode::p_publish_state(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state );
+                void p_publish_state(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state );
 
                 // define memory pointer to the latest state and command 
                 std::shared_ptr<roar_gokart_msgs::msg::VehicleStatus> latest_state_;

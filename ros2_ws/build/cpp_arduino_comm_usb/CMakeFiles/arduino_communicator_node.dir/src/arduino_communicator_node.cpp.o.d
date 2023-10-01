@@ -709,4 +709,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: \
  /usr/include/rapidjson/internal/pow10.h \
  /usr/include/rapidjson/error/error.h /usr/include/rapidjson/rapidjson.h \
  /usr/include/rapidjson/internal/strfunc.h \
- /usr/include/rapidjson/stream.h
+ /usr/include/rapidjson/stream.h /usr/include/rapidjson/stringbuffer.h \
+ /usr/include/rapidjson/writer.h /usr/include/rapidjson/internal/dtoa.h \
+ /usr/include/rapidjson/internal/itoa.h \
+ /usr/include/rapidjson/internal/itoa.h \
+ /usr/include/rapidjson/stringbuffer.h

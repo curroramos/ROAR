@@ -625,7 +625,9 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
   /usr/include/rapidjson/error/error.h \
   /usr/include/rapidjson/internal/biginteger.h \
   /usr/include/rapidjson/internal/diyfp.h \
+  /usr/include/rapidjson/internal/dtoa.h \
   /usr/include/rapidjson/internal/ieee754.h \
+  /usr/include/rapidjson/internal/itoa.h \
   /usr/include/rapidjson/internal/meta.h \
   /usr/include/rapidjson/internal/pow10.h \
   /usr/include/rapidjson/internal/stack.h \
@@ -636,6 +638,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
   /usr/include/rapidjson/rapidjson.h \
   /usr/include/rapidjson/reader.h \
   /usr/include/rapidjson/stream.h \
+  /usr/include/rapidjson/stringbuffer.h \
+  /usr/include/rapidjson/writer.h \
   /usr/include/sched.h \
   /usr/include/signal.h \
   /usr/include/stdc-predef.h \
@@ -934,6 +938,10 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /usr/include/signal.h:
 
+/usr/include/rapidjson/writer.h:
+
+/usr/include/rapidjson/stringbuffer.h:
+
 /usr/include/rapidjson/stream.h:
 
 /usr/include/rapidjson/rapidjson.h:
@@ -944,7 +952,11 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /usr/include/rapidjson/internal/stack.h:
 
+/usr/include/rapidjson/internal/itoa.h:
+
 /usr/include/rapidjson/internal/ieee754.h:
+
+/usr/include/rapidjson/internal/dtoa.h:
 
 /usr/include/rapidjson/error/error.h:
 

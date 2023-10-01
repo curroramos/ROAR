@@ -56,7 +56,7 @@ namespace roar {
 
             // Initialize logger
             printf("Initialize logger and set level\n");
-            // _logger = rclcpp::get_logger("arduino_communicator_node");
+            *_logger = rclcpp::get_logger("arduino_communicator_node");
             // set level of logger
             // _logger.set_level(rclcpp::logging::LogLevel::Debug);
             // Log message
@@ -79,15 +79,12 @@ namespace roar {
             // Send message via UDP
             std::string message = "s";
             int bytes_sent = sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
-            if (bytes_sent < 0) {
-            perror("sendto failed");
-            exit(EXIT_FAILURE);
-            }
+
             // printf("Sent message: %s\n", message.c_str());
             
     
             // Receive data from socket with a buffer size of 1024 bytes
-            std::array<char, 1024> buffer;
+            std::array<char, 2048> buffer;
             // printf("Wait for data from socket\n");
 
 
@@ -95,13 +92,12 @@ namespace roar {
             struct sockaddr_in client_address;
             socklen_t client_address_len = sizeof(client_address);
             ssize_t num_bytes_received = recvfrom(ArduinoCommunicatorNode::sock, buffer.data(), buffer.size(), 0, (struct sockaddr*)&client_address, &client_address_len);
-            if (num_bytes_received < 0) {
-                perror("recvfrom failed");
-                exit(EXIT_FAILURE); // TODO: don't exit
-            }
+
+            // Add null terminator to received message
+            buffer[num_bytes_received] = '\0';
 
             // Print the received message
-            printf("Received message: %s\n", buffer.data());    
+            // printf("Received message: %s\n", buffer.data());    
 
 
             try {
@@ -131,17 +127,22 @@ namespace roar {
             rapidjson::Document doc;
             doc.SetObject();
 
+            // Create a RapidJSON array for the current actuation
+            doc.AddMember("target_speed", latest_command_->target_speed, doc.GetAllocator());
+            doc.AddMember("steering_angle", latest_command_->steering_angle, doc.GetAllocator());
+            doc.AddMember("brake", latest_command_->brake, doc.GetAllocator());
+            doc.AddMember("reverse", latest_command_->reverse, doc.GetAllocator());
             
+            // Serialize the document to a JSON string
+            rapidjson::StringBuffer buffer;
+            rapidjson::Writer<rapidjson::StringBuffer> writer(buffer);
+            doc.Accept(writer);
+            std::string json_string_data = buffer.GetString();
 
-            message = latest_command_->to_json->to_string();
+            // printf("Send message: %s\n", json_string_data.c_str());
 
             // send message via UDP
-            int bytes_sent = sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
-
-            // TO - DO
-            // checkear que el codigo de python trabaja bien 
-            // filtrar mensajes, cuidado con la concurrencia ??  
-            // montar bien el codigo igual que el arduino_comm en python
+            int bytes_sent = sendto(sock, json_string_data.c_str(), json_string_data.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
 
 
         }
@@ -251,6 +252,9 @@ namespace roar {
                 printf("steering: %f\n", model.actuation.steering);
                 printf("brake: %d\n", model.actuation.brake);
                 printf("reverse: %d\n", model.actuation.reverse);
+
+                // Publish the current state
+                p_publish_state(std::make_shared<roar_gokart_msgs::msg::VehicleStatus>(model)); 
 
             } catch (const std::exception& e) {
                 // Handle any exceptions that may occur during parsing.

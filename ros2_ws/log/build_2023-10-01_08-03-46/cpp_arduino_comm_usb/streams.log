@@ -1,0 +1,42 @@
+[0.226s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[0.317s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o[0m
+[2.579s] In file included from [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:1[m[K:
+[2.579s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp:49:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kp_publish_state[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.579s]    49 |                 [01;31m[Kp_publish_state[m[K(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state );
+[2.580s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.608s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_read_timer()[m[K’:
+[2.608s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:77:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.608s]    77 |             auto [01;35m[Kport[m[K = this->get_parameter("port").as_int();
+[2.608s]       |                  [01;35m[K^~~~[m[K
+[2.612s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_write_timer()[m[K’:
+[2.612s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:151:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_sent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.612s]   151 |             int [01;35m[Kbytes_sent[m[K = sendto(sock, json_string_data.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
+[2.612s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.614s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K In member function ‘[01m[Kroar_gokart_msgs::msg::VehicleStatus roar::arduino::ArduinoCommunicatorNode::p_dataToVehicleState(const string&)[m[K’:
+[2.614s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:257:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.615s]   257 |                 printf("throttle: [01;35m[K%d[m[K\n", [32m[Kmodel.actuation.throttle[m[K);
+[2.615s]       |                                   [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.615s]       |                                    [01;35m[K|[m[K                     [32m[K|[m[K
+[2.615s]       |                                    [01;35m[Kint[m[K                   [32m[Kdouble[m[K
+[2.615s]       |                                   [32m[K%f[m[K
+[2.615s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:259:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.615s]   259 |                 printf("brake: [01;35m[K%d[m[K\n", [32m[Kmodel.actuation.brake[m[K);
+[2.615s]       |                                [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.615s]       |                                 [01;35m[K|[m[K                     [32m[K|[m[K
+[2.616s]       |                                 [01;35m[Kint[m[K                   [32m[Kdouble[m[K
+[2.616s]       |                                [32m[K%f[m[K
+[2.616s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:[m[K At global scope:
+[2.616s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:276:14:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::p_publish_state(roar_gokart_msgs::msg::VehicleStatus_<std::allocator<void> >::SharedPtr)[m[K’
+[2.616s]   276 |         void [01;31m[KArduinoCommunicatorNode[m[K::p_publish_state(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state_ ) {
+[2.616s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.616s] In file included from [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp:1[m[K:
+[2.616s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp:49:17:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint roar::arduino::ArduinoCommunicatorNode::p_publish_state(roar_gokart_msgs::msg::VehicleStatus_<std::allocator<void> >::SharedPtr)[m[K’
+[2.616s]    49 |                 [01;36m[Kp_publish_state[m[K(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state );
+[2.616s]       |                 [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.617s] [01m[K/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp:27:15:[m[K [01;36m[Knote: [m[K‘[01m[Kclass roar::arduino::ArduinoCommunicatorNode[m[K’ defined here
+[2.617s]    27 |         class [01;36m[KArduinoCommunicatorNode[m[K:  public rclcpp::Node
+[2.617s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.528s] gmake[2]: *** [CMakeFiles/arduino_communicator_node.dir/build.make:76: CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o] Error 1
+[4.528s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_communicator_node.dir/all] Error 2
+[4.528s] gmake: *** [Makefile:146: all] Error 2
+[4.534s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '2': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8

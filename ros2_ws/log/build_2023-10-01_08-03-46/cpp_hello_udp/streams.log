@@ -1,0 +1,22 @@
+[0.226s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_hello_udp -- -j8 -l8
+[0.286s] [100%] Built target hello
+[0.297s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp' returned '0': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_hello_udp -- -j8 -l8
+[0.352s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_hello_udp
+[0.378s] -- Install configuration: ""
+[0.378s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/lib/cpp_hello_udp/hello
+[0.378s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/package_run_dependencies/cpp_hello_udp
+[0.378s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/parent_prefix_path/cpp_hello_udp
+[0.378s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/ament_prefix_path.sh
+[0.378s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/ament_prefix_path.dsv
+[0.378s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/path.sh
+[0.379s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/environment/path.dsv
+[0.379s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.bash
+[0.379s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.sh
+[0.379s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.zsh
+[0.379s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/local_setup.dsv
+[0.379s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/package.dsv
+[0.380s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/ament_index/resource_index/packages/cpp_hello_udp
+[0.380s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/cmake/cpp_hello_udpConfig.cmake
+[0.380s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/cmake/cpp_hello_udpConfig-version.cmake
+[0.380s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_hello_udp/share/cpp_hello_udp/package.xml
+[0.387s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_hello_udp' returned '0': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_hello_udp
