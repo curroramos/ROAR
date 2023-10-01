@@ -608,6 +608,7 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
@@ -617,6 +618,24 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
   /usr/include/math.h \
   /usr/include/netinet/in.h \
   /usr/include/pthread.h \
+  /usr/include/rapidjson/allocators.h \
+  /usr/include/rapidjson/document.h \
+  /usr/include/rapidjson/encodedstream.h \
+  /usr/include/rapidjson/encodings.h \
+  /usr/include/rapidjson/error/error.h \
+  /usr/include/rapidjson/internal/biginteger.h \
+  /usr/include/rapidjson/internal/diyfp.h \
+  /usr/include/rapidjson/internal/ieee754.h \
+  /usr/include/rapidjson/internal/meta.h \
+  /usr/include/rapidjson/internal/pow10.h \
+  /usr/include/rapidjson/internal/stack.h \
+  /usr/include/rapidjson/internal/strfunc.h \
+  /usr/include/rapidjson/internal/strtod.h \
+  /usr/include/rapidjson/internal/swap.h \
+  /usr/include/rapidjson/memorystream.h \
+  /usr/include/rapidjson/rapidjson.h \
+  /usr/include/rapidjson/reader.h \
+  /usr/include/rapidjson/stream.h \
   /usr/include/sched.h \
   /usr/include/signal.h \
   /usr/include/stdc-predef.h \
@@ -915,6 +934,22 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /usr/include/signal.h:
 
+/usr/include/rapidjson/stream.h:
+
+/usr/include/rapidjson/rapidjson.h:
+
+/usr/include/rapidjson/memorystream.h:
+
+/usr/include/rapidjson/internal/swap.h:
+
+/usr/include/rapidjson/internal/stack.h:
+
+/usr/include/rapidjson/internal/ieee754.h:
+
+/usr/include/rapidjson/error/error.h:
+
+/usr/include/rapidjson/encodedstream.h:
+
 /usr/include/time.h:
 
 /usr/include/pthread.h:
@@ -922,6 +957,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 /usr/include/locale.h:
 
 /usr/include/libintl.h:
+
+/usr/include/inttypes.h:
 
 /usr/include/features-time64.h:
 
@@ -981,6 +1018,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
+/usr/include/rapidjson/internal/pow10.h:
+
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/c++/11/ostream:
@@ -1012,6 +1051,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 /usr/include/c++/11/stdlib.h:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/rapidjson/encodings.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
@@ -1081,6 +1122,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /opt/ros/iron/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
+/usr/include/rapidjson/allocators.h:
+
 /opt/ros/iron/include/rclcpp/rclcpp/node.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
@@ -1139,6 +1182,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /opt/ros/iron/include/rcl/rcl/graph.h:
 
+/usr/include/rapidjson/internal/biginteger.h:
+
 /opt/ros/iron/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
 
 /opt/ros/iron/include/rclcpp/rclcpp/publisher_factory.hpp:
@@ -1152,6 +1197,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 /opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:
 
 /opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:
+
+/usr/include/rapidjson/reader.h:
 
 /opt/ros/iron/include/rmw/rmw/event_callback_type.h:
 
@@ -1515,6 +1562,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
 
+/usr/include/rapidjson/internal/diyfp.h:
+
 /opt/ros/iron/include/rclcpp/rclcpp/parameter_service.hpp:
 
 /usr/include/c++/11/bits/codecvt.h:
@@ -1649,6 +1698,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/usr/include/rapidjson/document.h:
+
 /usr/include/netinet/in.h:
 
 /usr/include/c++/11/bits/concept_check.h:
@@ -1774,6 +1825,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /opt/ros/iron/include/rcutils/rcutils/logging_macros.h:
+
+/usr/include/rapidjson/internal/strfunc.h:
 
 /opt/ros/iron/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
@@ -1914,6 +1967,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 /usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/rapidjson/internal/meta.h:
 
 /opt/ros/iron/include/rmw/rmw/qos_policy_kind.h:
 
@@ -2190,6 +2245,8 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: /h
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/codecvt:
+
+/usr/include/rapidjson/internal/strtod.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
 

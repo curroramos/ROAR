@@ -20,5 +20,7 @@
   <depend>std_msgs</depend>
 
   <depend>roar_gokart_msgs</depend> <!-- ADDED -->
+  <depend>rapidjson</depend> <!-- ADDED -->
+
 
 </package>

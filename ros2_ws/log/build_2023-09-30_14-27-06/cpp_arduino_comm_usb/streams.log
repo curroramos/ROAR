@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[0.072s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.383s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.436s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.775s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.778s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.280s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.338s] -- Found roar_gokart_msgs: 0.0.0 (/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake)
+[1.426s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.426s]   By not providing "Findrapidjson.cmake" in CMAKE_MODULE_PATH this project
+[1.426s]   has asked CMake to find a package configuration file provided by
+[1.426s]   "rapidjson", but CMake did not find one.
+[1.426s] 
+[1.426s]   Could not find a package configuration file provided by "rapidjson" with
+[1.426s]   any of the following names:
+[1.426s] 
+[1.427s]     rapidjsonConfig.cmake
+[1.427s]     rapidjson-config.cmake
+[1.427s] 
+[1.427s]   Add the installation prefix of "rapidjson" to CMAKE_PREFIX_PATH or set
+[1.427s]   "rapidjson_DIR" to a directory containing one of the above files.  If
+[1.427s]   "rapidjson" provides a separate development package or SDK, be sure it has
+[1.427s]   been installed.
+[1.427s] 
+[1.427s] [0m
+[1.428s] -- Configuring incomplete, errors occurred!
+[1.435s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.443s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '2': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8

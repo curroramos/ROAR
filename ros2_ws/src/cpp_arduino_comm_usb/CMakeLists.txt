@@ -14,13 +14,20 @@ find_package(std_msgs REQUIRED)
 
 find_package(roar_gokart_msgs REQUIRED) ### MSG
 
+set(RAPIDJSON_INCLUDE_DIRS /usr/include/rapidjson/)  # Replace with the actual path to RapidJSON
+# find_package(rapidjson REQUIRED) ### ADDED
+
+
 include_directories(
   include
+  # ${RAPIDJSON_INCLUDE_DIRS} ### ADD THIS LINE
 )
 
 
 add_executable(arduino_communicator_node src/arduino_communicator_node.cpp)
 ament_target_dependencies(arduino_communicator_node rclcpp std_msgs roar_gokart_msgs) ## ADDED ROAR_GOKART_MSGS
+
+# target_link_libraries(arduino_communicator_node ${RAPIDJSON_INCLUDE_DIRS}) ### ADD THIS LINE
 
 
 install(TARGETS

@@ -6,9 +6,15 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+
 #include "roar_gokart_msgs/msg/actuation.hpp"
 #include "roar_gokart_msgs/msg/vehicle_status.hpp"
 #include "roar_gokart_msgs/msg/ego_vehicle_control.hpp"
+
+#include "rapidjson/document.h"
 
 
 
@@ -38,6 +44,8 @@ namespace roar
                 rclcpp::TimerBase::SharedPtr publish_state_timer_;
                 rclcpp::Publisher<roar_gokart_msgs::msg::VehicleStatus>::SharedPtr state_publisher_;
 
+                void ArduinoCommunicatorNode::p_publish_state(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state );
+
                 // define memory pointer to the latest state and command 
                 std::shared_ptr<roar_gokart_msgs::msg::VehicleStatus> latest_state_;
                 std::shared_ptr<roar_gokart_msgs::msg::EgoVehicleControl> latest_command_;
@@ -59,9 +67,7 @@ namespace roar
                 roar_gokart_msgs::msg::EgoVehicleControl p_egoVehicleControlMsgToArduinoCmdActionModel(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg); 
 
                 // define function to parse JSON data to vehicle state model
-                roar_gokart_msgs::msg::VehicleStatus p_dataToVehicleState();  // const nlohmann::json& data as input
-
-
+                roar_gokart_msgs::msg::VehicleStatus p_dataToVehicleState(const std::string& jsonData);  // const nlohmann::json& data as input
 
         };
     }

@@ -1,7 +1,9 @@
 CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: \
  /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/src/arduino_communicator_node.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
+ /usr/include/stdc-predef.h \
+ /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp \
+ /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
+ /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -162,24 +164,7 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /usr/include/x86_64-linux-gnu/sys/socket.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/x86_64-linux-gnu/bits/socket.h \
- /usr/include/x86_64-linux-gnu/bits/socket_type.h \
- /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
- /usr/include/x86_64-linux-gnu/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h \
- /usr/include/x86_64-linux-gnu/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
- /usr/include/arpa/inet.h /opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp \
+ /opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
@@ -674,7 +659,24 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: \
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
  /opt/ros/iron/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include/cpp_arduino_comm_usb/arduino_communicator_node.hpp \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
+ /usr/include/arpa/inet.h \
  /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/actuation.hpp \
  /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__struct.hpp \
  /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__builder.hpp \
@@ -688,4 +690,23 @@ CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o: \
  /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/ego_vehicle_control.hpp \
  /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__struct.hpp \
  /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__builder.hpp \
- /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__traits.hpp
+ /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__traits.hpp \
+ /usr/include/rapidjson/document.h /usr/include/rapidjson/reader.h \
+ /usr/include/rapidjson/allocators.h /usr/include/rapidjson/rapidjson.h \
+ /usr/include/inttypes.h /usr/include/rapidjson/stream.h \
+ /usr/include/rapidjson/encodings.h \
+ /usr/include/rapidjson/encodedstream.h \
+ /usr/include/rapidjson/memorystream.h \
+ /usr/include/rapidjson/internal/meta.h \
+ /usr/include/rapidjson/rapidjson.h \
+ /usr/include/rapidjson/internal/stack.h \
+ /usr/include/rapidjson/allocators.h \
+ /usr/include/rapidjson/internal/swap.h \
+ /usr/include/rapidjson/internal/strtod.h \
+ /usr/include/rapidjson/internal/ieee754.h \
+ /usr/include/rapidjson/internal/biginteger.h \
+ /usr/include/rapidjson/internal/diyfp.h \
+ /usr/include/rapidjson/internal/pow10.h \
+ /usr/include/rapidjson/error/error.h /usr/include/rapidjson/rapidjson.h \
+ /usr/include/rapidjson/internal/strfunc.h \
+ /usr/include/rapidjson/stream.h
