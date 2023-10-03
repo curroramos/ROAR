@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o[0m
+[6.668s] [100%] [32m[1mLinking CXX executable arduino_communicator_node[0m
+[7.038s] [100%] Built target arduino_communicator_node
+[7.058s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+[7.102s] Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb
+[7.128s] -- Install configuration: ""
+[7.128s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node
+[7.133s] -- Set runtime path of "/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node" to ""
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/package_run_dependencies/cpp_arduino_comm_usb
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/parent_prefix_path/cpp_arduino_comm_usb
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.sh
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.dsv
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.sh
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.dsv
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.bash
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.sh
+[7.134s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.zsh
+[7.135s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.dsv
+[7.135s] -- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.dsv
+[7.135s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/packages/cpp_arduino_comm_usb
+[7.135s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig.cmake
+[7.135s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig-version.cmake
+[7.135s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.xml
+[7.143s] Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb

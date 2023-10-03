@@ -1,0 +1,4 @@
+Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb -- -j8 -l8
+Invoking command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb
+Invoked command in '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb

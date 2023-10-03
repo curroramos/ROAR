@@ -44,10 +44,6 @@ namespace roar {
 
             // Set up the UDP socket
             sock = socket(AF_INET, SOCK_DGRAM, 0);
-            if (sock < 0) {
-                perror("socket creation failed");
-                exit(EXIT_FAILURE);
-            }
 
             arduino_ip.s_addr = inet_addr("10.0.0.9");
             server_address.sin_family = AF_INET;
@@ -56,11 +52,10 @@ namespace roar {
 
             // Initialize logger
             printf("Initialize logger and set level\n");
-            *_logger = rclcpp::get_logger("arduino_communicator_node");
-            // set level of logger
-            // _logger.set_level(rclcpp::logging::LogLevel::Debug);
+            //*_logger = rclcpp::get_logger("arduino_communicator_node");
+            
             // Log message
-            // RCLCPP_INFO(_logger, "ArduinoCommunicatorNode has been initialized");
+            // RCLCPP_INFO(get_logger(), "ArduinoCommunicatorNode has been initialized");
         }
         ArduinoCommunicatorNode::~ArduinoCommunicatorNode()
         {
@@ -74,19 +69,13 @@ namespace roar {
         void ArduinoCommunicatorNode::on_read_timer() {
             // Send message to IP address and port
             auto ip_address = this->get_parameter("ip_address").as_string();
-            auto port = this->get_parameter("port").as_int();
 
             // Send message via UDP
             std::string message = "s";
-            int bytes_sent = sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
-
-            // printf("Sent message: %s\n", message.c_str());
-            
+            sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));            
     
-            // Receive data from socket with a buffer size of 1024 bytes
+            // Create buffer for received data
             std::array<char, 2048> buffer;
-            // printf("Wait for data from socket\n");
-
 
             // Receive data from socket with a buffer size of 1024 bytes
             struct sockaddr_in client_address;
@@ -95,9 +84,6 @@ namespace roar {
 
             // Add null terminator to received message
             buffer[num_bytes_received] = '\0';
-
-            // Print the received message
-            // printf("Received message: %s\n", buffer.data());    
 
 
             try {
@@ -109,13 +95,10 @@ namespace roar {
 
                 // Update latest state
                 *latest_state_ = model;
-                // printf("Update latest state\n");
 
-                // Log received message
-                // RCLCPP_DEBUG(_logger, "Received: %s", latest_state.to_string().c_str());
             } catch (const std::exception& e) {
                 // Log error
-                // RCLCPP_ERROR(_logger, "Failed to parse received data: %s", e.what());
+                // RCLCPP_ERROR(get_logger(), "Failed to parse received data: %s", e.what());
             }
         }
 
@@ -139,31 +122,24 @@ namespace roar {
             doc.Accept(writer);
             std::string json_string_data = buffer.GetString();
 
-            // printf("Send message: %s\n", json_string_data.c_str());
-
             // send message via UDP
-            int bytes_sent = sendto(sock, json_string_data.c_str(), json_string_data.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
+            sendto(sock, json_string_data.c_str(), json_string_data.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
 
 
         }
 
         // Callback function for receiving EgoVehicleControl commands from ROS
         void ArduinoCommunicatorNode::on_command(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg) {
-            // Save the received EgoVehicleControl message in latest_command_            
-            // printf("Save the received EgoVehicleControl message in latest_command_\n");
-
             auto command = roar_gokart_msgs::msg::EgoVehicleControl();
             command = p_egoVehicleControlMsgToArduinoCmdActionModel(msg);
 
             // update latest command
             *latest_command_ = command;
             
-            // Log received message
-            // RCLCPP_DEBUG(_logger, "Received: %s", latest_control_model.to_string().c_str());
         }
 
 
-
+        // Callback function for publishing the current state
         void ArduinoCommunicatorNode::on_publish_state() {
             // Create header for the message
             std_msgs::msg::Header header;
@@ -192,9 +168,8 @@ namespace roar {
             state_publisher_->publish(msg);
         }
 
-        // Save the EgoVehicleControl message (pointer) in model -- HELP, is that right?
+        // Save the EgoVehicleControl message (pointer) in model
         roar_gokart_msgs::msg::EgoVehicleControl ArduinoCommunicatorNode::p_egoVehicleControlMsgToArduinoCmdActionModel(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg) {
-            // Create a new ArduinoEgoVehicleControlMsg model
             roar_gokart_msgs::msg::EgoVehicleControl model;
             // Clip the brake value to ensure it's within the valid range [0, 1]
             model.brake = std::clamp(msg->brake, 0.0f, 1.0f);
@@ -203,24 +178,19 @@ namespace roar {
             model.steering_angle = msg->steering_angle;
             model.target_speed = msg->target_speed;
 
-            // Return the converted model
             return model;
         }
 
 
-        roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState(const std::string& jsonData) { // const nlohmann::json& data as input
+        // Parse JSON data to vehicle state model
+        roar_gokart_msgs::msg::VehicleStatus ArduinoCommunicatorNode::p_dataToVehicleState(const std::string& jsonData) { 
             roar_gokart_msgs::msg::VehicleStatus model;
-            // Parse JSON data to vehicle state model
-            // printf("Parse JSON data to vehicle state model\n");
-
-            // Parse the received JSON message
             rapidjson::Document document;
             document.Parse(jsonData.c_str());
 
             try {
                 // Check if the received JSON message is an object
                 if (!document.IsObject()) {
-                    // printf("JSON data is not an object\n");
                     throw std::runtime_error("JSON data is not an object.");
                 }
                 
@@ -229,7 +199,6 @@ namespace roar {
                 model.is_left_limiter_on = document["is_left_limiter_ON"].GetBool();
                 model.is_right_limiter_on = document["is_right_limiter_ON"].GetBool();
                 model.angle = document["angle"].GetDouble();
-                // model.angular_velocity = document["angular_velocity"].GetDouble();
                 model.speed = document["speed"].GetDouble();
                 model.target_speed = document["target_speed"].GetDouble();
                 model.target_steering_angle = document["target_steering_angle"].GetDouble();
@@ -240,30 +209,11 @@ namespace roar {
                 model.actuation.brake = currentActuation["brake"].GetInt();
                 model.actuation.reverse = currentActuation["reverse"].GetBool();
 
-                // Print all values 
-                printf("is_auto: %d\n", model.is_auto);
-                printf("is_left_limiter_on: %d\n", model.is_left_limiter_on);
-                printf("is_right_limiter_on: %d\n", model.is_right_limiter_on);
-                printf("angle: %f\n", model.angle);
-                printf("speed: %f\n", model.speed);
-                printf("target_speed: %f\n", model.target_speed);
-                printf("target_steering_angle: %f\n", model.target_steering_angle);
-                printf("throttle: %d\n", model.actuation.throttle);
-                printf("steering: %f\n", model.actuation.steering);
-                printf("brake: %d\n", model.actuation.brake);
-                printf("reverse: %d\n", model.actuation.reverse);
-
                 // Publish the current state
                 p_publish_state(std::make_shared<roar_gokart_msgs::msg::VehicleStatus>(model)); 
 
             } catch (const std::exception& e) {
-                // Handle any exceptions that may occur during parsing.
-                // You can log an error message or throw an exception as needed.
-                // For example:
-                //throw std::runtime_error("Failed to parse JSON: " + std::string(e.what()));
-
-                // print
-                // printf("Failed to parse JSON: %s\n", e.what());
+                throw std::runtime_error("Failed to parse JSON: " + std::string(e.what()));
             }
 
             return model;
@@ -273,7 +223,7 @@ namespace roar {
         void ArduinoCommunicatorNode::p_publish_state(const roar_gokart_msgs::msg::VehicleStatus::SharedPtr latest_state_ ) {
             // Create Header
             std_msgs::msg::Header header;
-            header.stamp = rclcpp::Clock().now(); // Assuming you are using ROS 2 rclcpp
+            header.stamp = rclcpp::Clock().now(); 
             header.frame_id = this->get_parameter("vehicle_status_header").as_string();
 
             // Create Actuation
