@@ -1,0 +1,16 @@
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/lib/cpp_arduino_comm/arduino_comm_node
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/ament_index/resource_index/package_run_dependencies/cpp_arduino_comm
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/ament_index/resource_index/parent_prefix_path/cpp_arduino_comm
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/environment/ament_prefix_path.sh
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/environment/ament_prefix_path.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/environment/path.sh
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/environment/path.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/local_setup.bash
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/local_setup.sh
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/local_setup.zsh
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/local_setup.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/package.dsv
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/ament_index/resource_index/packages/cpp_arduino_comm
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/cmake/cpp_arduino_commConfig.cmake
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/cmake/cpp_arduino_commConfig-version.cmake
+/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm/share/cpp_arduino_comm/package.xml

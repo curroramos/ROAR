@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (roar_gokart_msgs) JobQueued: {'identifier': 'roar_gokart_msgs', 'dependencies': OrderedDict()}
+[0.000804] (cpp_arduino_comm_usb) JobQueued: {'identifier': 'cpp_arduino_comm_usb', 'dependencies': OrderedDict([('roar_gokart_msgs', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs')])}
+[0.000890] (roar_gokart_msgs) JobStarted: {'identifier': 'roar_gokart_msgs'}
+[0.010265] (roar_gokart_msgs) JobProgress: {'identifier': 'roar_gokart_msgs', 'progress': 'cmake'}
+[0.010539] (roar_gokart_msgs) JobProgress: {'identifier': 'roar_gokart_msgs', 'progress': 'build'}
+[0.011231] (roar_gokart_msgs) Command: {'cmd': ['/home/curro/anaconda3/bin/cmake', '--build', '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs', '--', '-j8', '-l8'], 'cwd': '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'curro'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('OLDPWD', '/home/curro/ROAR/ros2_ws'), ('HOME', '/home/curro'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('ZSH', '/home/curro/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1073'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1886'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '51606'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'curro'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:33883'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/curro'), ('USERNAME', 'curro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/opt/ros/iron/bin:/home/curro/anaconda3/bin:/home/curro/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/curro/.local/bin:/home/curro/.local/bin'), ('SESSION_MANAGER', 'local/curro-ThinkPad:@/tmp/.ICE-unix/1403,unix/curro-ThinkPad:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ed3ab24361ef4603aa8ec2b44f76e32c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('VSCODE_INJECTION', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PZ1YB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3dd4139b7b.sock'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/curro/anaconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_DOMAIN_ID', '14'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_UUID', 'urn:uuid:10f7c215-9011-4d5a-a7d7-d8ab9beb65d1'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('PWD', '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/curro/anaconda3/bin/conda'), ('ZDOTDIR', '/home/curro'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/curro/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.071489] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099010] (-) TimerEvent: {}
+[0.199450] (-) TimerEvent: {}
+[0.299902] (-) TimerEvent: {}
+[0.364606] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.400008] (-) TimerEvent: {}
+[0.422149] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.431611] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.445694] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.463154] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500178] (-) TimerEvent: {}
+[0.521230] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.529058] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.600339] (-) TimerEvent: {}
+[0.700950] (-) TimerEvent: {}
+[0.801565] (-) TimerEvent: {}
+[0.902005] (-) TimerEvent: {}
+[1.002417] (-) TimerEvent: {}
+[1.102820] (-) TimerEvent: {}
+[1.203265] (-) TimerEvent: {}
+[1.263469] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[1.303375] (-) TimerEvent: {}
+[1.403710] (-) TimerEvent: {}
+[1.504162] (-) TimerEvent: {}
+[1.604943] (-) TimerEvent: {}
+[1.705351] (-) TimerEvent: {}
+[1.805736] (-) TimerEvent: {}
+[1.906194] (-) TimerEvent: {}
+[2.006652] (-) TimerEvent: {}
+[2.107111] (-) TimerEvent: {}
+[2.207533] (-) TimerEvent: {}
+[2.308044] (-) TimerEvent: {}
+[2.342601] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.408213] (-) TimerEvent: {}
+[2.508701] (-) TimerEvent: {}
+[2.609152] (-) TimerEvent: {}
+[2.709604] (-) TimerEvent: {}
+[2.729821] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.734063] (roar_gokart_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[2.734421] (roar_gokart_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.734580] (roar_gokart_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.734740] (roar_gokart_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.734881] (roar_gokart_msgs) StderrLine: {'line': b'\n'}
+[2.735024] (roar_gokart_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.735220] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.735364] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[2.735506] (roar_gokart_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[2.735646] (roar_gokart_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.735786] (roar_gokart_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.752066] (roar_gokart_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[2.752522] (roar_gokart_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/iron/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[2.752715] (roar_gokart_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.752857] (roar_gokart_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.752992] (roar_gokart_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.753124] (roar_gokart_msgs) StderrLine: {'line': b'\n'}
+[2.753256] (roar_gokart_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.753388] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.753524] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.753661] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[2.753796] (roar_gokart_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[2.753912] (roar_gokart_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.753958] (roar_gokart_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.768061] (roar_gokart_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/iron/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[2.768285] (roar_gokart_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.768434] (roar_gokart_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.768575] (roar_gokart_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.768741] (roar_gokart_msgs) StderrLine: {'line': b'\n'}
+[2.768877] (roar_gokart_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.769010] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.769144] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.769296] (roar_gokart_msgs) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[2.769430] (roar_gokart_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[2.769563] (roar_gokart_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.769697] (roar_gokart_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.769973] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/curro/anaconda3/bin/python3\n'}
+[2.770189] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/curro/anaconda3/include/python3.11\n'}
+[2.770339] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/curro/anaconda3/lib/libpython3.11.so\n'}
+[2.809781] (-) TimerEvent: {}
+[2.904601] (roar_gokart_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /home/curro/anaconda3/lib/python3.11/site-packages/numpy/core/include\n'}
+[2.909892] (-) TimerEvent: {}
+[2.938347] (roar_gokart_msgs) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.002256] (roar_gokart_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.005109] (roar_gokart_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs\n'}
+[3.010055] (-) TimerEvent: {}
+[3.024545] (roar_gokart_msgs) StdoutLine: {'line': b'[  1%] Built target roar_gokart_msgs__rosidl_generator_type_description\n'}
+[3.030062] (roar_gokart_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_roar_gokart_msgs\n'}
+[3.037350] (roar_gokart_msgs) StdoutLine: {'line': b'[  3%] Built target roar_gokart_msgs__cpp\n'}
+[3.047594] (roar_gokart_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/ego_vehicle_control__description.c.o\x1b[0m\n'}
+[3.048394] (roar_gokart_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/vehicle_status__description.c.o\x1b[0m\n'}
+[3.048976] (roar_gokart_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/ego_vehicle_control__functions.c.o\x1b[0m\n'}
+[3.049260] (roar_gokart_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/vehicle_status__functions.c.o\x1b[0m\n'}
+[3.049351] (roar_gokart_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.c.o\x1b[0m\n'}
+[3.049445] (roar_gokart_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/vehicle_status__type_support.c.o\x1b[0m\n'}
+[3.051481] (roar_gokart_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/actuation__description.c.o\x1b[0m\n'}
+[3.074646] (roar_gokart_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/actuation__functions.c.o\x1b[0m\n'}
+[3.083641] (roar_gokart_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_c.dir/rosidl_generator_c/roar_gokart_msgs/msg/detail/actuation__type_support.c.o\x1b[0m\n'}
+[3.110163] (-) TimerEvent: {}
+[3.113152] (roar_gokart_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libroar_gokart_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.140765] (roar_gokart_msgs) StdoutLine: {'line': b'[ 24%] Built target roar_gokart_msgs__rosidl_generator_c\n'}
+[3.152273] (roar_gokart_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roar_gokart_msgs/msg/ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[3.152539] (roar_gokart_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roar_gokart_msgs/msg/vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[3.152608] (roar_gokart_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.c.o\x1b[0m\n'}
+[3.156719] (roar_gokart_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support_c.cpp.o\x1b[0m\n'}
+[3.156939] (roar_gokart_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roar_gokart_msgs/msg/ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[3.161665] (roar_gokart_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[3.171039] (roar_gokart_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roar_gokart_msgs/msg/detail/dds_fastrtps/ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[3.184825] (roar_gokart_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roar_gokart_msgs/msg/detail/vehicle_status__type_support.c.o\x1b[0m\n'}
+[3.185832] (roar_gokart_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roar_gokart_msgs/msg/actuation__type_support.cpp.o\x1b[0m\n'}
+[3.210355] (-) TimerEvent: {}
+[3.210603] (roar_gokart_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roar_gokart_msgs/msg/detail/vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[3.218469] (roar_gokart_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libroar_gokart_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.229689] (roar_gokart_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roar_gokart_msgs/msg/detail/actuation__type_support.c.o\x1b[0m\n'}
+[3.282631] (roar_gokart_msgs) StdoutLine: {'line': b'[ 48%] Built target roar_gokart_msgs__rosidl_typesupport_c\n'}
+[3.290953] (roar_gokart_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libroar_gokart_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.296600] (roar_gokart_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roar_gokart_msgs/msg/detail/dds_fastrtps/vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[3.307697] (roar_gokart_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.308402] (roar_gokart_msgs) StdoutLine: {'line': b'writing roar_gokart_msgs.egg-info/PKG-INFO\n'}
+[3.308700] (roar_gokart_msgs) StdoutLine: {'line': b'writing dependency_links to roar_gokart_msgs.egg-info/dependency_links.txt\n'}
+[3.308827] (roar_gokart_msgs) StdoutLine: {'line': b'writing top-level names to roar_gokart_msgs.egg-info/top_level.txt\n'}
+[3.310449] (-) TimerEvent: {}
+[3.325244] (roar_gokart_msgs) StdoutLine: {'line': b"reading manifest file 'roar_gokart_msgs.egg-info/SOURCES.txt'\n"}
+[3.326102] (roar_gokart_msgs) StdoutLine: {'line': b"writing manifest file 'roar_gokart_msgs.egg-info/SOURCES.txt'\n"}
+[3.371154] (roar_gokart_msgs) StdoutLine: {'line': b'[ 53%] Built target roar_gokart_msgs__rosidl_typesupport_introspection_c\n'}
+[3.375055] (roar_gokart_msgs) StdoutLine: {'line': b'[ 53%] Built target ament_cmake_python_build_roar_gokart_msgs_egg\n'}
+[3.398889] (roar_gokart_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roar_gokart_msgs/msg/detail/vehicle_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.402869] (roar_gokart_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roar_gokart_msgs/msg/detail/actuation__type_support.cpp.o\x1b[0m\n'}
+[3.410587] (-) TimerEvent: {}
+[3.510991] (-) TimerEvent: {}
+[3.536949] (roar_gokart_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roar_gokart_msgs/msg/detail/actuation__type_support_c.cpp.o\x1b[0m\n'}
+[3.591247] (roar_gokart_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roar_gokart_msgs/msg/vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[3.611130] (-) TimerEvent: {}
+[3.711501] (-) TimerEvent: {}
+[3.727761] (roar_gokart_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roar_gokart_msgs/msg/actuation__type_support.cpp.o\x1b[0m\n'}
+[3.742726] (roar_gokart_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roar_gokart_msgs/msg/detail/dds_fastrtps/actuation__type_support.cpp.o\x1b[0m\n'}
+[3.811645] (-) TimerEvent: {}
+[3.863053] (roar_gokart_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libroar_gokart_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.873254] (roar_gokart_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libroar_gokart_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.911804] (-) TimerEvent: {}
+[3.959740] (roar_gokart_msgs) StdoutLine: {'line': b'[ 70%] Built target roar_gokart_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.973260] (roar_gokart_msgs) StdoutLine: {'line': b'[ 72%] Built target roar_gokart_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.011911] (-) TimerEvent: {}
+[4.112239] (-) TimerEvent: {}
+[4.121964] (roar_gokart_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libroar_gokart_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.164150] (roar_gokart_msgs) StdoutLine: {'line': b'[ 75%] Built target roar_gokart_msgs__rosidl_typesupport_cpp\n'}
+[4.200531] (roar_gokart_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libroar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.212384] (-) TimerEvent: {}
+[4.278469] (roar_gokart_msgs) StdoutLine: {'line': b'[ 79%] Built target roar_gokart_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.289583] (roar_gokart_msgs) StdoutLine: {'line': b'[ 79%] Built target roar_gokart_msgs\n'}
+[4.300554] (roar_gokart_msgs) StdoutLine: {'line': b'[ 81%] Built target roar_gokart_msgs__py\n'}
+[4.312716] (-) TimerEvent: {}
+[4.315333] (roar_gokart_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_py.dir/rosidl_generator_py/roar_gokart_msgs/msg/_ego_vehicle_control_s.c.o\x1b[0m\n'}
+[4.316551] (roar_gokart_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_py.dir/rosidl_generator_py/roar_gokart_msgs/msg/_vehicle_status_s.c.o\x1b[0m\n'}
+[4.317125] (roar_gokart_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_generator_py.dir/rosidl_generator_py/roar_gokart_msgs/msg/_actuation_s.c.o\x1b[0m\n'}
+[4.412851] (-) TimerEvent: {}
+[4.425467] (roar_gokart_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/roar_gokart_msgs/libroar_gokart_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.460973] (roar_gokart_msgs) StdoutLine: {'line': b'[ 88%] Built target roar_gokart_msgs__rosidl_generator_py\n'}
+[4.472175] (roar_gokart_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.472434] (roar_gokart_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.480422] (roar_gokart_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/roar_gokart_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.512986] (-) TimerEvent: {}
+[4.557169] (roar_gokart_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.558736] (roar_gokart_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.581333] (roar_gokart_msgs) StdoutLine: {'line': b'[ 98%] Built target roar_gokart_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.582436] (roar_gokart_msgs) StdoutLine: {'line': b'[ 98%] Built target roar_gokart_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.597642] (roar_gokart_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.613123] (-) TimerEvent: {}
+[4.621841] (roar_gokart_msgs) StdoutLine: {'line': b'[100%] Built target roar_gokart_msgs__rosidl_typesupport_c__pyext\n'}
+[4.631423] (roar_gokart_msgs) CommandEnded: {'returncode': 0}
+[4.713266] (-) TimerEvent: {}
+[4.759497] (roar_gokart_msgs) JobProgress: {'identifier': 'roar_gokart_msgs', 'progress': 'install'}
+[4.788983] (roar_gokart_msgs) Command: {'cmd': ['/home/curro/anaconda3/bin/cmake', '--install', '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs'], 'cwd': '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'curro'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('OLDPWD', '/home/curro/ROAR/ros2_ws'), ('HOME', '/home/curro'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('ZSH', '/home/curro/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1073'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1886'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '51606'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'curro'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:33883'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/curro'), ('USERNAME', 'curro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/opt/ros/iron/bin:/home/curro/anaconda3/bin:/home/curro/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/curro/.local/bin:/home/curro/.local/bin'), ('SESSION_MANAGER', 'local/curro-ThinkPad:@/tmp/.ICE-unix/1403,unix/curro-ThinkPad:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ed3ab24361ef4603aa8ec2b44f76e32c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('VSCODE_INJECTION', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PZ1YB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3dd4139b7b.sock'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/curro/anaconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_DOMAIN_ID', '14'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_UUID', 'urn:uuid:10f7c215-9011-4d5a-a7d7-d8ab9beb65d1'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('PWD', '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/curro/anaconda3/bin/conda'), ('ZDOTDIR', '/home/curro'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/curro/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.811512] (roar_gokart_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.811813] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/rosidl_interfaces/roar_gokart_msgs\n'}
+[4.812071] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/EgoVehicleControl.json\n'}
+[4.812193] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/VehicleStatus.json\n'}
+[4.812303] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/Actuation.json\n'}
+[4.812409] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs\n'}
+[4.812513] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg\n'}
+[4.812617] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/ego_vehicle_control.h\n'}
+[4.812953] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/actuation.h\n'}
+[4.813079] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/vehicle_status.h\n'}
+[4.813187] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail\n'}
+[4.813289] (-) TimerEvent: {}
+[4.813424] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__struct.h\n'}
+[4.813547] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.h\n'}
+[4.813654] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__functions.c\n'}
+[4.813808] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__functions.c\n'}
+[4.813916] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.c\n'}
+[4.814125] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__description.c\n'}
+[4.814243] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__functions.h\n'}
+[4.814406] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__description.c\n'}
+[4.814510] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__struct.h\n'}
+[4.814631] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__description.c\n'}
+[4.814740] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.c\n'}
+[4.814846] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.c\n'}
+[4.814998] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__functions.c\n'}
+[4.815102] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__functions.h\n'}
+[4.815206] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.h\n'}
+[4.815311] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__struct.h\n'}
+[4.815414] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__functions.h\n'}
+[4.815518] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.h\n'}
+[4.815675] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.815778] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/library_path.sh\n'}
+[4.815882] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/library_path.dsv\n'}
+[4.815988] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_generator_c.so\n'}
+[4.816092] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_generator_c.so" to ""\n'}
+[4.816197] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs\n'}
+[4.816299] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg\n'}
+[4.816403] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail\n'}
+[4.816507] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.816611] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_fastrtps_c.h\n'}
+[4.816811] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_fastrtps_c.h\n'}
+[4.816918] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.817022] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.817127] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.817234] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs\n'}
+[4.817364] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg\n'}
+[4.817472] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/vehicle_status.hpp\n'}
+[4.817575] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail\n'}
+[4.817675] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__traits.hpp\n'}
+[4.817783] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__struct.hpp\n'}
+[4.817883] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__struct.hpp\n'}
+[4.817983] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__traits.hpp\n'}
+[4.818083] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__builder.hpp\n'}
+[4.818767] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__builder.hpp\n'}
+[4.818905] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__builder.hpp\n'}
+[4.819008] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__traits.hpp\n'}
+[4.819107] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__struct.hpp\n'}
+[4.819528] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/ego_vehicle_control.hpp\n'}
+[4.819645] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/actuation.hpp\n'}
+[4.819746] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs\n'}
+[4.819848] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg\n'}
+[4.819965] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.820068] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail\n'}
+[4.820167] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.820267] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.820366] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/dds_fastrtps\n'}
+[4.820464] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.820577] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.820701] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.820806] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs\n'}
+[4.820905] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg\n'}
+[4.821008] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.821108] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail\n'}
+[4.821226] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.c\n'}
+[4.821326] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.c\n'}
+[4.821423] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h\n'}
+[4.821520] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.c\n'}
+[4.821616] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_introspection_c.h\n'}
+[4.821719] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_introspection_c.h\n'}
+[4.821815] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.821911] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.822007] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_c.so\n'}
+[4.822112] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.822226] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs\n'}
+[4.822340] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg\n'}
+[4.822454] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail\n'}
+[4.822569] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.cpp\n'}
+[4.822682] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.822806] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.cpp\n'}
+[4.822911] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.cpp\n'}
+[4.823016] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.823115] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.823218] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.823319] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.823418] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_cpp.so\n'}
+[4.823515] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.823613] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/pythonpath.sh\n'}
+[4.823709] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/pythonpath.dsv\n'}
+[4.823805] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info\n'}
+[4.823905] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/top_level.txt\n'}
+[4.824017] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/dependency_links.txt\n'}
+[4.824117] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/SOURCES.txt\n'}
+[4.824215] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/PKG-INFO\n'}
+[4.824314] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs\n'}
+[4.824414] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/libroar_gokart_msgs__rosidl_generator_py.so\n'}
+[4.824514] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/__init__.py\n'}
+[4.824614] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.824756] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[4.824867] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg\n'}
+[4.824968] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/__init__.py\n'}
+[4.825069] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_ego_vehicle_control.py\n'}
+[4.825171] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_actuation_s.c\n'}
+[4.825276] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_vehicle_status.py\n'}
+[4.825380] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_actuation.py\n'}
+[4.825485] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_vehicle_status_s.c\n'}
+[4.825589] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_ego_vehicle_control_s.c\n'}
+[4.825694] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[4.825802] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.825907] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[4.826015] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.850407] (roar_gokart_msgs) StdoutLine: {'line': b"Listing '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs'...\n"}
+[4.850661] (roar_gokart_msgs) StdoutLine: {'line': b"Compiling '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/__init__.py'...\n"}
+[4.850778] (roar_gokart_msgs) StdoutLine: {'line': b"Listing '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg'...\n"}
+[4.850881] (roar_gokart_msgs) StdoutLine: {'line': b"Compiling '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/__init__.py'...\n"}
+[4.850957] (roar_gokart_msgs) StdoutLine: {'line': b"Compiling '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_actuation.py'...\n"}
+[4.851010] (roar_gokart_msgs) StdoutLine: {'line': b"Compiling '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_ego_vehicle_control.py'...\n"}
+[4.851062] (roar_gokart_msgs) StdoutLine: {'line': b"Compiling '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_vehicle_status.py'...\n"}
+[4.855929] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[4.856290] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so" to ""\n'}
+[4.856567] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[4.857044] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so" to ""\n'}
+[4.857160] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[4.857381] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so" to ""\n'}
+[4.857503] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_generator_py.so\n'}
+[4.857733] (roar_gokart_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_generator_py.so" to ""\n'}
+[4.857805] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/EgoVehicleControl.idl\n'}
+[4.857884] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/VehicleStatus.idl\n'}
+[4.857941] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/Actuation.idl\n'}
+[4.858000] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/EgoVehicleControl.msg\n'}
+[4.858077] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/VehicleStatus.msg\n'}
+[4.858132] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/Actuation.msg\n'}
+[4.858206] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/package_run_dependencies/roar_gokart_msgs\n'}
+[4.858285] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/parent_prefix_path/roar_gokart_msgs\n'}
+[4.858360] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/ament_prefix_path.sh\n'}
+[4.858441] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/ament_prefix_path.dsv\n'}
+[4.858509] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/path.sh\n'}
+[4.858581] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/path.dsv\n'}
+[4.858669] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.bash\n'}
+[4.858736] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.sh\n'}
+[4.858815] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.zsh\n'}
+[4.858875] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.dsv\n'}
+[4.858959] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.dsv\n'}
+[4.859017] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/packages/roar_gokart_msgs\n'}
+[4.859076] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_cExport.cmake\n'}
+[4.859156] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.859209] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.859280] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.859336] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.859390] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.859454] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.859542] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.859596] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.859661] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.859732] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.859788] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.859865] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.859922] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.859981] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.860054] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.860108] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.860166] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.860219] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.860272] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.860325] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.860378] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.860430] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.860484] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.860541] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgsConfig.cmake\n'}
+[4.860594] (roar_gokart_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgsConfig-version.cmake\n'}
+[4.860663] (roar_gokart_msgs) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.xml\n'}
+[4.865192] (roar_gokart_msgs) CommandEnded: {'returncode': 0}
+[4.913390] (-) TimerEvent: {}
+[4.992899] (roar_gokart_msgs) JobEnded: {'identifier': 'roar_gokart_msgs', 'rc': 0}
+[4.995415] (cpp_arduino_comm_usb) JobStarted: {'identifier': 'cpp_arduino_comm_usb'}
+[5.001443] (cpp_arduino_comm_usb) JobProgress: {'identifier': 'cpp_arduino_comm_usb', 'progress': 'cmake'}
+[5.002733] (cpp_arduino_comm_usb) JobProgress: {'identifier': 'cpp_arduino_comm_usb', 'progress': 'build'}
+[5.003037] (cpp_arduino_comm_usb) Command: {'cmd': ['/home/curro/anaconda3/bin/cmake', '--build', '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb', '--', '-j8', '-l8'], 'cwd': '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'curro'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('OLDPWD', '/home/curro/ROAR/ros2_ws'), ('HOME', '/home/curro'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('ZSH', '/home/curro/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1073'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1886'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '51606'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'curro'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:33883'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/curro'), ('USERNAME', 'curro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/opt/ros/iron/bin:/home/curro/anaconda3/bin:/home/curro/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/curro/.local/bin:/home/curro/.local/bin'), ('SESSION_MANAGER', 'local/curro-ThinkPad:@/tmp/.ICE-unix/1403,unix/curro-ThinkPad:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ed3ab24361ef4603aa8ec2b44f76e32c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('VSCODE_INJECTION', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PZ1YB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3dd4139b7b.sock'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/curro/anaconda3/bin/python'), ('AMENT_PREFIX_PATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron'), ('ROS_DOMAIN_ID', '14'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_UUID', 'urn:uuid:10f7c215-9011-4d5a-a7d7-d8ab9beb65d1'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('PWD', '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/curro/anaconda3/bin/conda'), ('ZDOTDIR', '/home/curro'), ('PYTHONPATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/curro/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron')]), 'shell': False}
+[5.013531] (-) TimerEvent: {}
+[5.038418] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[5.113647] (-) TimerEvent: {}
+[5.214017] (-) TimerEvent: {}
+[5.253474] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[5.314138] (-) TimerEvent: {}
+[5.324276] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[5.334082] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[5.348197] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.366124] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.414273] (-) TimerEvent: {}
+[5.514624] (-) TimerEvent: {}
+[5.527326] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[5.528513] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.614761] (-) TimerEvent: {}
+[5.656905] (cpp_arduino_comm_usb) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.714928] (-) TimerEvent: {}
+[5.815353] (-) TimerEvent: {}
+[5.834306] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[5.869441] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found roar_gokart_msgs: 0.0.0 (/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake)\n'}
+[5.912868] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[5.915457] (-) TimerEvent: {}
+[6.013155] (cpp_arduino_comm_usb) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.013403] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include;$<BUILD_INTERFACE:/home/curro/ROAR/ros2_ws/src/cpp_arduino_comm_usb/include>\n'}
+[6.013519] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.013687] (cpp_arduino_comm_usb) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.014379] (cpp_arduino_comm_usb) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.014544] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.014709] (cpp_arduino_comm_usb) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.015306] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[6.015529] (-) TimerEvent: {}
+[6.025997] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.027528] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Build files have been written to: /home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb\n'}
+[6.060456] (cpp_arduino_comm_usb) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arduino_communicator_node.dir/src/arduino_communicator_node.cpp.o\x1b[0m\n'}
+[6.115672] (-) TimerEvent: {}
+[6.216024] (-) TimerEvent: {}
+[6.316390] (-) TimerEvent: {}
+[6.416786] (-) TimerEvent: {}
+[6.517138] (-) TimerEvent: {}
+[6.617482] (-) TimerEvent: {}
+[6.717822] (-) TimerEvent: {}
+[6.818169] (-) TimerEvent: {}
+[6.918512] (-) TimerEvent: {}
+[7.018874] (-) TimerEvent: {}
+[7.119229] (-) TimerEvent: {}
+[7.219592] (-) TimerEvent: {}
+[7.319960] (-) TimerEvent: {}
+[7.420324] (-) TimerEvent: {}
+[7.526625] (-) TimerEvent: {}
+[7.626988] (-) TimerEvent: {}
+[7.727350] (-) TimerEvent: {}
+[7.827723] (-) TimerEvent: {}
+[7.928089] (-) TimerEvent: {}
+[8.028453] (-) TimerEvent: {}
+[8.128823] (-) TimerEvent: {}
+[8.229174] (-) TimerEvent: {}
+[8.329552] (-) TimerEvent: {}
+[8.429958] (-) TimerEvent: {}
+[8.530325] (-) TimerEvent: {}
+[8.630672] (-) TimerEvent: {}
+[8.731021] (-) TimerEvent: {}
+[8.831540] (-) TimerEvent: {}
+[8.932139] (-) TimerEvent: {}
+[9.032593] (-) TimerEvent: {}
+[9.133042] (-) TimerEvent: {}
+[9.233475] (-) TimerEvent: {}
+[9.333817] (-) TimerEvent: {}
+[9.434167] (-) TimerEvent: {}
+[9.534540] (-) TimerEvent: {}
+[9.634964] (-) TimerEvent: {}
+[9.735400] (-) TimerEvent: {}
+[9.835787] (-) TimerEvent: {}
+[9.936116] (-) TimerEvent: {}
+[10.036577] (-) TimerEvent: {}
+[10.137042] (-) TimerEvent: {}
+[10.237410] (-) TimerEvent: {}
+[10.337815] (-) TimerEvent: {}
+[10.438174] (-) TimerEvent: {}
+[10.538583] (-) TimerEvent: {}
+[10.638964] (-) TimerEvent: {}
+[10.739389] (-) TimerEvent: {}
+[10.839829] (-) TimerEvent: {}
+[10.940273] (-) TimerEvent: {}
+[11.040941] (-) TimerEvent: {}
+[11.141357] (-) TimerEvent: {}
+[11.241784] (-) TimerEvent: {}
+[11.342191] (-) TimerEvent: {}
+[11.442568] (-) TimerEvent: {}
+[11.542999] (-) TimerEvent: {}
+[11.643392] (-) TimerEvent: {}
+[11.743712] (-) TimerEvent: {}
+[11.844149] (-) TimerEvent: {}
+[11.944588] (-) TimerEvent: {}
+[12.044931] (-) TimerEvent: {}
+[12.145319] (-) TimerEvent: {}
+[12.245707] (-) TimerEvent: {}
+[12.346086] (-) TimerEvent: {}
+[12.364158] (cpp_arduino_comm_usb) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arduino_communicator_node\x1b[0m\n'}
+[12.446276] (-) TimerEvent: {}
+[12.546728] (-) TimerEvent: {}
+[12.647300] (-) TimerEvent: {}
+[12.730710] (cpp_arduino_comm_usb) StdoutLine: {'line': b'[100%] Built target arduino_communicator_node\n'}
+[12.747652] (-) TimerEvent: {}
+[12.748405] (cpp_arduino_comm_usb) CommandEnded: {'returncode': 0}
+[12.831811] (cpp_arduino_comm_usb) JobProgress: {'identifier': 'cpp_arduino_comm_usb', 'progress': 'install'}
+[12.832297] (cpp_arduino_comm_usb) Command: {'cmd': ['/home/curro/anaconda3/bin/cmake', '--install', '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb'], 'cwd': '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'curro'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('OLDPWD', '/home/curro/ROAR/ros2_ws'), ('HOME', '/home/curro'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('ZSH', '/home/curro/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1073'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1886'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '51606'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/iron/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'curro'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:33883'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/curro'), ('USERNAME', 'curro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('PATH', '/opt/ros/iron/bin:/home/curro/anaconda3/bin:/home/curro/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/curro/.local/bin:/home/curro/.local/bin'), ('SESSION_MANAGER', 'local/curro-ThinkPad:@/tmp/.ICE-unix/1403,unix/curro-ThinkPad:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ed3ab24361ef4603aa8ec2b44f76e32c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('VSCODE_INJECTION', '1'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PZ1YB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3dd4139b7b.sock'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/curro/anaconda3/bin/python'), ('AMENT_PREFIX_PATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron'), ('ROS_DOMAIN_ID', '14'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_UUID', 'urn:uuid:10f7c215-9011-4d5a-a7d7-d8ab9beb65d1'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('PWD', '/home/curro/ROAR/ros2_ws/build/cpp_arduino_comm_usb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CONDA_EXE', '/home/curro/anaconda3/bin/conda'), ('ZDOTDIR', '/home/curro'), ('PYTHONPATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/curro/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron')]), 'shell': False}
+[12.847789] (-) TimerEvent: {}
+[12.888397] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.888773] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node\n'}
+[12.899787] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Set runtime path of "/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/lib/cpp_arduino_comm_usb/arduino_communicator_node" to ""\n'}
+[12.900131] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/package_run_dependencies/cpp_arduino_comm_usb\n'}
+[12.900288] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/parent_prefix_path/cpp_arduino_comm_usb\n'}
+[12.900460] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.sh\n'}
+[12.900606] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/ament_prefix_path.dsv\n'}
+[12.900807] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Installing: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.sh\n'}
+[12.900955] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/environment/path.dsv\n'}
+[12.901214] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.bash\n'}
+[12.901381] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.sh\n'}
+[12.901527] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.zsh\n'}
+[12.901643] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/local_setup.dsv\n'}
+[12.901746] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.dsv\n'}
+[12.901848] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/ament_index/resource_index/packages/cpp_arduino_comm_usb\n'}
+[12.901953] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig.cmake\n'}
+[12.902083] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/cmake/cpp_arduino_comm_usbConfig-version.cmake\n'}
+[12.902187] (cpp_arduino_comm_usb) StdoutLine: {'line': b'-- Up-to-date: /home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb/share/cpp_arduino_comm_usb/package.xml\n'}
+[12.907350] (cpp_arduino_comm_usb) CommandEnded: {'returncode': 0}
+[12.947978] (-) TimerEvent: {}
+[13.026203] (cpp_arduino_comm_usb) JobEnded: {'identifier': 'cpp_arduino_comm_usb', 'rc': 0}
+[13.027485] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/uninstall.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/arduino_comm_cpp_uninstall.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/arduino_comm_node.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/test.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/edit_cache.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/rebuild_cache.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/list_install_components.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/install.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/install/local.dir
+/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp/CMakeFiles/install/strip.dir
