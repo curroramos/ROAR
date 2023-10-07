@@ -75,6 +75,7 @@ namespace roar {
 
             auto end_time = std::chrono::high_resolution_clock::now();
 
+
             // Add null terminator to received message
             buffer[num_bytes_received] = '\0';
             

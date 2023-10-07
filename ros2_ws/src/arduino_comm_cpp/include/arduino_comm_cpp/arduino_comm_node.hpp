@@ -38,7 +38,7 @@ namespace roar
                 rclcpp::TimerBase::SharedPtr write_timer_;
 
                 // define buffer to store received data
-                std::array<char, 2048> buffer;
+                std::array<char, 1024> buffer;
                 const std::string message = "s";
 
 
