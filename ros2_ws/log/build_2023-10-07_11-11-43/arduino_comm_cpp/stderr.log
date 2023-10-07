@@ -1,0 +1,11 @@
+[01m[K/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp/src/arduino_comm_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_read_timer()[m[K’:
+[01m[K/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp/src/arduino_comm_node.cpp:82:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kend_time[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   82 |                 auto [01;35m[Kend_time[m[K = std::chrono::high_resolution_clock::now();
+      |                      [01;35m[K^~~~~~~~[m[K
+[01m[K/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp/src/arduino_comm_node.cpp:90:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kread_timer_[m[K’?
+   90 |             auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>([01;31m[Kend_time[m[K - start_time);
+      |                                                                                       [01;31m[K^~~~~~~~[m[K
+      |                                                                                       [32m[Kread_timer_[m[K
+gmake[2]: *** [CMakeFiles/arduino_comm_node.dir/build.make:76: CMakeFiles/arduino_comm_node.dir/src/arduino_comm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_comm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

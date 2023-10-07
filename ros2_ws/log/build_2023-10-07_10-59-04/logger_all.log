@@ -1,0 +1,222 @@
+[0.419s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.419s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f04d65eb4c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f04d6d9dfc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f04d6d9dfc0>>)
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.479s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/curro/ROAR/ros2_ws'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_comm_cpp) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_comm_cpp' with type 'ros.ament_cmake' and name 'arduino_comm_cpp'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/roar_gokart_msgs) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roar_gokart_msgs' with type 'ros.ament_cmake' and name 'roar_gokart_msgs'
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.543s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/curro/ROAR/ros2_ws/install
+[0.545s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/iron
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.612s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'roar_gokart_msgs' is in: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding roar_gokart_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'cmake_target' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'roar_gokart_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.616s] DEBUG:colcon.colcon_core.verb:Building package 'roar_gokart_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs', 'merge_install': False, 'path': '/home/curro/ROAR/ros2_ws/src/roar_gokart_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'cmake_target' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'arduino_comm_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.617s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_comm_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp', 'merge_install': False, 'path': '/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.618s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.623s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curro/ROAR/ros2_ws/src/roar_gokart_msgs' with build type 'ament_cmake'
+[0.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curro/ROAR/ros2_ws/src/roar_gokart_msgs'
+[0.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs -- -j8 -l8
+[1.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs -- -j8 -l8
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs
+[1.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roar_gokart_msgs)
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs' for CMake module files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('roar_gokart_msgs', 'cmake_prefix_path')
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/cmake_prefix_path.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/cmake_prefix_path.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/cmake_prefix_path.sh'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib'
+[1.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('roar_gokart_msgs', 'ld_library_path_lib')
+[1.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/ld_library_path_lib.ps1'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/ld_library_path_lib.dsv'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/ld_library_path_lib.sh'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/bin'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/pkgconfig/roar_gokart_msgs.pc'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.10/site-packages'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/bin'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.sh'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.bash'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.zsh'
+[1.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/colcon-core/packages/roar_gokart_msgs)
+[1.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roar_gokart_msgs)
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs' for CMake module files
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs' for CMake config files
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('roar_gokart_msgs', 'cmake_prefix_path')
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/cmake_prefix_path.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/cmake_prefix_path.dsv'
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/cmake_prefix_path.sh'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib'
+[1.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('roar_gokart_msgs', 'ld_library_path_lib')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/ld_library_path_lib.ps1'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/ld_library_path_lib.dsv'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/hook/ld_library_path_lib.sh'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/bin'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/pkgconfig/roar_gokart_msgs.pc'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.10/site-packages'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/bin'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.bash'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.zsh'
+[1.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/colcon-core/packages/roar_gokart_msgs)
+[1.899s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp' with build type 'ament_cmake'
+[1.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp'
+[1.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.901s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp -- -j8 -l8
+[11.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp -- -j8 -l8
+[11.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp
+[11.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_comm_cpp)
+[11.367s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp' for CMake module files
+[11.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp
+[11.368s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp' for CMake config files
+[11.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_comm_cpp', 'cmake_prefix_path')
+[11.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/hook/cmake_prefix_path.ps1'
+[11.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/hook/cmake_prefix_path.dsv'
+[11.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/hook/cmake_prefix_path.sh'
+[11.370s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib'
+[11.370s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/bin'
+[11.370s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/pkgconfig/arduino_comm_cpp.pc'
+[11.370s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/python3.10/site-packages'
+[11.370s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/bin'
+[11.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.ps1'
+[11.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.dsv'
+[11.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.sh'
+[11.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.bash'
+[11.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.zsh'
+[11.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/colcon-core/packages/arduino_comm_cpp)
+[11.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_comm_cpp)
+[11.429s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp' for CMake module files
+[11.430s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp' for CMake config files
+[11.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_comm_cpp', 'cmake_prefix_path')
+[11.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/hook/cmake_prefix_path.ps1'
+[11.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/hook/cmake_prefix_path.dsv'
+[11.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/hook/cmake_prefix_path.sh'
+[11.435s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib'
+[11.436s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/bin'
+[11.436s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/pkgconfig/arduino_comm_cpp.pc'
+[11.436s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/python3.10/site-packages'
+[11.437s] Level 1:colcon.colcon_core.environment:checking '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/bin'
+[11.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.ps1'
+[11.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.dsv'
+[11.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.sh'
+[11.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.bash'
+[11.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.zsh'
+[11.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/colcon-core/packages/arduino_comm_cpp)
+[11.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.445s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.453s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.464s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curro/ROAR/ros2_ws/install/local_setup.ps1'
+[11.469s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/curro/ROAR/ros2_ws/install/_local_setup_util_ps1.py'
+[11.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curro/ROAR/ros2_ws/install/setup.ps1'
+[11.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curro/ROAR/ros2_ws/install/local_setup.sh'
+[11.478s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/curro/ROAR/ros2_ws/install/_local_setup_util_sh.py'
+[11.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curro/ROAR/ros2_ws/install/setup.sh'
+[11.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curro/ROAR/ros2_ws/install/local_setup.bash'
+[11.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curro/ROAR/ros2_ws/install/setup.bash'
+[11.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/curro/ROAR/ros2_ws/install/local_setup.zsh'
+[11.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/curro/ROAR/ros2_ws/install/setup.zsh'

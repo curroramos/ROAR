@@ -1,0 +1,190 @@
+[0.024s] Invoking command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs -- -j8 -l8
+[0.105s] [  1%] Built target roar_gokart_msgs__rosidl_generator_type_description
+[0.111s] [  1%] Built target ament_cmake_python_copy_roar_gokart_msgs
+[0.123s] [  3%] Built target roar_gokart_msgs__cpp
+[0.125s] [ 24%] Built target roar_gokart_msgs__rosidl_generator_c
+[0.146s] [ 33%] Built target roar_gokart_msgs__rosidl_typesupport_c
+[0.147s] [ 51%] Built target roar_gokart_msgs__rosidl_typesupport_introspection_c
+[0.147s] [ 51%] Built target roar_gokart_msgs__rosidl_typesupport_fastrtps_c
+[0.148s] [ 61%] Built target roar_gokart_msgs__rosidl_typesupport_cpp
+[0.149s] [ 72%] Built target roar_gokart_msgs__rosidl_typesupport_introspection_cpp
+[0.149s] [ 79%] Built target roar_gokart_msgs__rosidl_typesupport_fastrtps_cpp
+[0.164s] [ 79%] Built target roar_gokart_msgs
+[0.179s] [ 81%] Built target roar_gokart_msgs__py
+[0.200s] [ 88%] Built target roar_gokart_msgs__rosidl_generator_py
+[0.218s] [ 94%] Built target roar_gokart_msgs__rosidl_typesupport_introspection_c__pyext
+[0.218s] [ 96%] Built target roar_gokart_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.221s] [100%] Built target roar_gokart_msgs__rosidl_typesupport_c__pyext
+[0.520s] running egg_info
+[0.521s] writing roar_gokart_msgs.egg-info/PKG-INFO
+[0.521s] writing dependency_links to roar_gokart_msgs.egg-info/dependency_links.txt
+[0.522s] writing top-level names to roar_gokart_msgs.egg-info/top_level.txt
+[0.544s] reading manifest file 'roar_gokart_msgs.egg-info/SOURCES.txt'
+[0.544s] writing manifest file 'roar_gokart_msgs.egg-info/SOURCES.txt'
+[0.624s] [100%] Built target ament_cmake_python_build_roar_gokart_msgs_egg
+[0.644s] Invoked command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs -- -j8 -l8
+[0.950s] Invoking command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs
+[0.995s] -- Install configuration: ""
+[0.995s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/rosidl_interfaces/roar_gokart_msgs
+[0.996s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/EgoVehicleControl.json
+[0.996s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/VehicleStatus.json
+[0.996s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/Actuation.json
+[0.996s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs
+[0.996s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg
+[0.996s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/ego_vehicle_control.h
+[0.997s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/actuation.h
+[0.997s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/vehicle_status.h
+[0.997s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail
+[0.997s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__struct.h
+[0.997s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.h
+[0.997s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__functions.c
+[0.998s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__functions.c
+[0.998s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.c
+[0.998s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__description.c
+[0.998s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__functions.h
+[0.998s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__description.c
+[0.998s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__struct.h
+[0.999s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__description.c
+[0.999s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.c
+[0.999s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.c
+[0.999s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__functions.c
+[0.999s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__functions.h
+[1.000s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.h
+[1.000s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__struct.h
+[1.000s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__functions.h
+[1.000s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.h
+[1.001s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.001s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/library_path.sh
+[1.001s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/library_path.dsv
+[1.001s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_generator_c.so
+[1.001s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs
+[1.001s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg
+[1.002s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail
+[1.002s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_c.h
+[1.002s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_fastrtps_c.h
+[1.002s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_fastrtps_c.h
+[1.002s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.002s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_fastrtps_c.so
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/vehicle_status.hpp
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__traits.hpp
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__struct.hpp
+[1.003s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__struct.hpp
+[1.004s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__traits.hpp
+[1.004s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__builder.hpp
+[1.004s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__builder.hpp
+[1.004s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__builder.hpp
+[1.004s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__traits.hpp
+[1.004s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__struct.hpp
+[1.005s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/ego_vehicle_control.hpp
+[1.005s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/actuation.hpp
+[1.005s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs
+[1.005s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg
+[1.005s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.005s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail
+[1.006s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_fastrtps_cpp.hpp
+[1.006s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.006s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/dds_fastrtps
+[1.006s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.007s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.007s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs
+[1.007s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg
+[1.007s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.007s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail
+[1.007s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.c
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.c
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.c
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_introspection_c.h
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_introspection_c.h
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_introspection_c.so
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_c.so
+[1.008s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs
+[1.009s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg
+[1.009s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail
+[1.009s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__type_support.cpp
+[1.009s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/ego_vehicle_control__rosidl_typesupport_introspection_cpp.hpp
+[1.009s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__type_support.cpp
+[1.009s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__type_support.cpp
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/actuation__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/include/roar_gokart_msgs/roar_gokart_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_cpp.hpp
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_introspection_cpp.so
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_typesupport_cpp.so
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/pythonpath.sh
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/pythonpath.dsv
+[1.010s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info
+[1.010s] -- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/top_level.txt
+[1.011s] -- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/dependency_links.txt
+[1.011s] -- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/SOURCES.txt
+[1.011s] -- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs-0.0.0-py3.11.egg-info/PKG-INFO
+[1.011s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs
+[1.011s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/libroar_gokart_msgs__rosidl_generator_py.so
+[1.011s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/__init__.py
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_c.c
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/__init__.py
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_ego_vehicle_control.py
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_actuation_s.c
+[1.012s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_vehicle_status.py
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_actuation.py
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_vehicle_status_s.c
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg/_ego_vehicle_control_s.c
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[1.013s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/_roar_gokart_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.057s] Listing '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs'...
+[1.057s] Listing '/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/msg'...
+[1.066s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[1.066s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[1.067s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages/roar_gokart_msgs/roar_gokart_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[1.067s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/libroar_gokart_msgs__rosidl_generator_py.so
+[1.068s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/EgoVehicleControl.idl
+[1.068s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/VehicleStatus.idl
+[1.068s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/Actuation.idl
+[1.069s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/EgoVehicleControl.msg
+[1.069s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/VehicleStatus.msg
+[1.069s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/msg/Actuation.msg
+[1.069s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/package_run_dependencies/roar_gokart_msgs
+[1.069s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/parent_prefix_path/roar_gokart_msgs
+[1.069s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/ament_prefix_path.sh
+[1.070s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/path.sh
+[1.070s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/environment/path.dsv
+[1.070s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.bash
+[1.070s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.sh
+[1.070s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.zsh
+[1.071s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/local_setup.dsv
+[1.071s] -- Installing: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.dsv
+[1.071s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/ament_index/resource_index/packages/roar_gokart_msgs
+[1.071s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_cExport.cmake
+[1.071s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.071s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.071s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.072s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_cppExport.cmake
+[1.072s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.072s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.072s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.072s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.072s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cExport.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cppExport.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_pyExport.cmake
+[1.073s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/export_roar_gokart_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/rosidl_cmake-extras.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.074s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.075s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgsConfig.cmake
+[1.075s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/cmake/roar_gokart_msgsConfig-version.cmake
+[1.075s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/share/roar_gokart_msgs/package.xml
+[1.085s] Invoked command in '/home/curro/ROAR/ros2_ws/build/roar_gokart_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/roar_gokart_msgs

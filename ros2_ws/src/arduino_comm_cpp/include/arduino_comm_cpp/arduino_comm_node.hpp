@@ -37,6 +37,11 @@ namespace roar
                 void on_write_timer();
                 rclcpp::TimerBase::SharedPtr write_timer_;
 
+                // define buffer to store received data
+                std::array<char, 2048> buffer;
+                const std::string message = "s";
+
+
                 // define command subscriber 
                 void on_command(const roar_gokart_msgs::msg::EgoVehicleControl::SharedPtr msg);
                 rclcpp::Subscription<roar_gokart_msgs::msg::EgoVehicleControl>::SharedPtr command_subscriber_;
@@ -57,7 +62,6 @@ namespace roar
                 struct sockaddr_in server_address;
                 struct in_addr arduino_ip;
                 unsigned int arduino_port = 1883;
-
 
                 // define function to get IP address and port
                 std::pair<std::string, int> p_getIPAndPort();
