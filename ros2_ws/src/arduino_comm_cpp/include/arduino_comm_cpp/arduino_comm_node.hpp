@@ -58,7 +58,7 @@ namespace roar
                 std::shared_ptr<roar_gokart_msgs::msg::EgoVehicleControl> latest_command_;
 
                 // define socket
-                int sock;
+                int sockfd, newsockfd;
                 struct sockaddr_in server_address;
                 struct in_addr arduino_ip;
                 unsigned int arduino_port = 1883;

@@ -38,25 +38,28 @@ namespace roar {
                 10
             );
 
-            // initialize latest state and latest command
-            latest_state_ = std::make_shared<roar_gokart_msgs::msg::VehicleStatus>();
-            latest_command_ = std::make_shared<roar_gokart_msgs::msg::EgoVehicleControl>();
+            // Create a TCP socket. 
+            sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
-            // Set up the UDP socket
-            sock = socket(AF_INET, SOCK_DGRAM, 0);
+            // Define the address structure for the server.
+            struct sockaddr_in server_addr;
+            server_addr.sin_family = AF_INET;
+            server_addr.sin_port = htons(this->get_parameter("port").as_int());
+            server_addr.sin_addr.s_addr = INADDR_ANY;
 
-            arduino_ip.s_addr = inet_addr("10.0.0.9");
-            server_address.sin_family = AF_INET;
-            server_address.sin_addr = arduino_ip;
-            server_address.sin_port = htons(arduino_port);
+            if (connect(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
+                std::cerr << "Connection failed" << std::endl;
+                close(sockfd);
+            }
 
             // Log message
             RCLCPP_INFO(get_logger(), "ArduinoCommunicatorNode has been initialized");
         }
+
         ArduinoCommunicatorNode::~ArduinoCommunicatorNode()
         {
             // Close socket
-            close(sock);
+            close(newsockfd);
         }
 
 
@@ -64,14 +67,14 @@ namespace roar {
         void ArduinoCommunicatorNode::on_read_timer() {
 
             // Send message via UDP (message = 's')
-            sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));            
+            sendto(sockfd, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));            
 
             auto start_time = std::chrono::high_resolution_clock::now();
 
             // Receive data from socket with a buffer size of 1024 bytes
             struct sockaddr_in client_address;
             socklen_t client_address_len = sizeof(client_address);
-            ssize_t num_bytes_received = recvfrom(ArduinoCommunicatorNode::sock, buffer.data(), buffer.size(), 0, (struct sockaddr*)&client_address, &client_address_len);
+            ssize_t num_bytes_received = recvfrom(ArduinoCommunicatorNode::sockfd, buffer.data(), buffer.size(), 0, (struct sockaddr*)&client_address, &client_address_len);
 
             auto end_time = std::chrono::high_resolution_clock::now();
 
@@ -114,7 +117,7 @@ namespace roar {
             std::string json_string_data = buffer.GetString();
 
             // send message via UDP
-            sendto(sock, json_string_data.c_str(), json_string_data.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
+            sendto(sockfd, json_string_data.c_str(), json_string_data.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));
 
 
         }
