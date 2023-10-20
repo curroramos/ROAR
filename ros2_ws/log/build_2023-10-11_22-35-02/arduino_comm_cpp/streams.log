@@ -1,0 +1,32 @@
+[0.052s] Invoking command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp -- -j8 -l8
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_comm_node.dir/src/arduino_comm_node.cpp.o[0m
+[2.421s] [01m[K/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp/src/arduino_comm_node.cpp:[m[K In member function ‘[01m[Kvoid roar::arduino::ArduinoCommunicatorNode::on_read_timer()[m[K’:
+[2.421s] [01m[K/home/curro/ROAR/ros2_ws/src/arduino_comm_cpp/src/arduino_comm_node.cpp:94:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 2 has type ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.421s]    94 |             printf("[01;35m[K%ld[m[K \n", [32m[Kelapsed_time[m[K);
+[2.421s]       |                     [01;35m[K~~^[m[K      [32m[K~~~~~~~~~~~~[m[K
+[2.421s]       |                       [01;35m[K|[m[K      [32m[K|[m[K
+[2.421s]       |                       [01;35m[K|[m[K      [32m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >[m[K
+[2.421s]       |                       [01;35m[Klong int[m[K
+[6.760s] [100%] [32m[1mLinking CXX executable arduino_comm_node[0m
+[7.136s] [100%] Built target arduino_comm_node
+[7.153s] Invoked command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp -- -j8 -l8
+[7.237s] Invoking command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp
+[7.259s] -- Install configuration: ""
+[7.260s] -- Installing: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/arduino_comm_cpp/arduino_comm_node
+[7.264s] -- Set runtime path of "/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/arduino_comm_cpp/arduino_comm_node" to ""
+[7.264s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/package_run_dependencies/arduino_comm_cpp
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/parent_prefix_path/arduino_comm_cpp
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/ament_prefix_path.sh
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/ament_prefix_path.dsv
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/path.sh
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/path.dsv
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.bash
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.sh
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.zsh
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.dsv
+[7.265s] -- Installing: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.dsv
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/packages/arduino_comm_cpp
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/cmake/arduino_comm_cppConfig.cmake
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/cmake/arduino_comm_cppConfig-version.cmake
+[7.265s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.xml
+[7.271s] Invoked command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp' returned '0': CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/home/curro/ROAR/ros2_ws/install/cpp_hello_udp:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm_usb:/home/curro/ROAR/ros2_ws/install/cpp_arduino_comm:/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp:/home/curro/ROAR/ros2_ws/install/arduino_comm:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp

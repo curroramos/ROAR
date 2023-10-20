@@ -1,0 +1,18 @@
+[100%] Built target arduino_comm_node
+-- Install configuration: ""
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/arduino_comm_cpp/arduino_comm_node
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/package_run_dependencies/arduino_comm_cpp
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/parent_prefix_path/arduino_comm_cpp
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/path.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/path.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.bash
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.sh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.zsh
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.dsv
+-- Installing: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.dsv
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/packages/arduino_comm_cpp
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/cmake/arduino_comm_cppConfig.cmake
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/cmake/arduino_comm_cppConfig-version.cmake
+-- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.xml

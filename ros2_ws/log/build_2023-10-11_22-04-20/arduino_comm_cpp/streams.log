@@ -1,0 +1,25 @@
+[0.041s] Invoking command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp -- -j8 -l8
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_comm_node.dir/src/arduino_comm_node.cpp.o[0m
+[6.746s] [100%] [32m[1mLinking CXX executable arduino_comm_node[0m
+[7.177s] [100%] Built target arduino_comm_node
+[7.189s] Invoked command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp' returned '0': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --build /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp -- -j8 -l8
+[7.258s] Invoking command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp
+[7.281s] -- Install configuration: ""
+[7.281s] -- Installing: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/arduino_comm_cpp/arduino_comm_node
+[7.286s] -- Set runtime path of "/home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/lib/arduino_comm_cpp/arduino_comm_node" to ""
+[7.286s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/package_run_dependencies/arduino_comm_cpp
+[7.286s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/parent_prefix_path/arduino_comm_cpp
+[7.286s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/ament_prefix_path.sh
+[7.286s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/ament_prefix_path.dsv
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/path.sh
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/environment/path.dsv
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.bash
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.sh
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.zsh
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/local_setup.dsv
+[7.287s] -- Installing: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.dsv
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/ament_index/resource_index/packages/arduino_comm_cpp
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/cmake/arduino_comm_cppConfig.cmake
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/cmake/arduino_comm_cppConfig-version.cmake
+[7.287s] -- Up-to-date: /home/curro/ROAR/ros2_ws/install/arduino_comm_cpp/share/arduino_comm_cpp/package.xml
+[7.292s] Invoked command in '/home/curro/ROAR/ros2_ws/build/arduino_comm_cpp' returned '0': AMENT_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/curro/ROAR/ros2_ws/install/roar_gokart_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/curro/anaconda3/bin/cmake --install /home/curro/ROAR/ros2_ws/build/arduino_comm_cpp

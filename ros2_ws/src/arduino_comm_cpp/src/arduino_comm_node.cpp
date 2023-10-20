@@ -9,8 +9,8 @@ namespace roar {
             // Declare ROS parameters for IP address, port, and timings
             this->declare_parameter("ip_address", "10.0.0.9");
             this->declare_parameter("port", 1883);
-            this->declare_parameter("get_state_period", 0.1);
-            this->declare_parameter("write_action_period", 0.1);
+            this->declare_parameter("get_state_period", 0.001);
+            this->declare_parameter("write_action_period", 0.001);
             this->declare_parameter("write_timeout", 0.1);
             this->declare_parameter("vehicle_status_header", "base_link");
 
@@ -66,19 +66,16 @@ namespace roar {
             // Send message via UDP (message = 's')
             sendto(sock, message.c_str(), message.size(), 0, (struct sockaddr*)&server_address, sizeof(server_address));            
 
-            auto start_time = std::chrono::high_resolution_clock::now();
 
             // Receive data from socket with a buffer size of 1024 bytes
             struct sockaddr_in client_address;
             socklen_t client_address_len = sizeof(client_address);
             ssize_t num_bytes_received = recvfrom(ArduinoCommunicatorNode::sock, buffer.data(), buffer.size(), 0, (struct sockaddr*)&client_address, &client_address_len);
 
-            auto end_time = std::chrono::high_resolution_clock::now();
 
 
             // Add null terminator to received message
             buffer[num_bytes_received] = '\0';
-            
             try {
                 auto model = p_dataToVehicleState(buffer.data());
                 *latest_state_ = model;
@@ -87,10 +84,7 @@ namespace roar {
                 RCLCPP_ERROR(get_logger(), "Failed to parse received data: %s", e.what());
             }
 
-            // Calculate the elapsed time
-            auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
 
-            RCLCPP_INFO(get_logger(), "on_read_timer took %ld milliseconds", elapsed_time.count());
         }
 
         // Callback function for sending control commands to Arduino
@@ -189,9 +183,9 @@ namespace roar {
             model.target_steering_angle = document["target_steering_angle"].GetDouble();
 
             const rapidjson::Value& currentActuation = document["current_actuation"];
-            model.actuation.throttle = currentActuation["throttle"].GetInt();
+            model.actuation.throttle = currentActuation["throttle"].GetDouble();
             model.actuation.steering = currentActuation["steering"].GetDouble();
-            model.actuation.brake = currentActuation["brake"].GetInt();
+            model.actuation.brake = currentActuation["brake"].GetDouble();
             model.actuation.reverse = currentActuation["reverse"].GetBool();
 
             // Publish the current state
